@@ -1,0 +1,4846 @@
+.card+.card {
+    margin-top: 30px;
+}
+
+.ks-widget-payment-simple-amount-item {
+    min-height: 124px;
+    padding: 30px 20px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    border-color: #e5e5e5;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
+.ks-widget-payment-simple-amount-item .payment-simple-amount-item-icon-block {
+    width: 64px;
+    height: 64px;
+    -webkit-border-radius: 32px;
+    border-radius: 32px;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-right: 20px
+}
+
+.ks-widget-payment-simple-amount-item .payment-simple-amount-item-icon-block>.ks-icon {
+    position: relative;
+    left: 1px;
+    color: #fff;
+    font-size: 32px
+}
+
+.ks-widget-payment-simple-amount-item .payment-simple-amount-item-icon-block>[class*=ks-icon-] {
+    font-size: 24px
+}
+
+.ks-widget-payment-simple-amount-item .payment-simple-amount-item-amount {
+    margin-bottom: 7px
+}
+
+.ks-widget-payment-simple-amount-item .payment-simple-amount-item-amount>.ks-amount {
+    font-size: 24px;
+    font-weight: 600;
+    display: inline-block;
+    margin-right: 16px
+}
+
+.ks-widget-payment-simple-amount-item .payment-simple-amount-item-amount>.ks-amount-icon {
+    font-size: 18px;
+    -webkit-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    transform: rotate(-360deg)
+}
+
+.ks-widget-payment-simple-amount-item .payment-simple-amount-item-description {
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 500
+}
+
+.ks-widget-payment-simple-amount-item .payment-simple-amount-item-description>.ks-progress-type {
+    font-weight: 600
+}
+
+.ks-widget-payment-simple-amount-item.ks-purple .payment-simple-amount-item-icon-block {
+    background-color: #4e54a8
+}
+
+.ks-widget-payment-simple-amount-item.ks-purple .ks-amount-icon,
+.ks-widget-payment-simple-amount-item.ks-purple .ks-progress-type {
+    color: #4e54a8
+}
+
+.ks-widget-payment-simple-amount-item.ks-green .payment-simple-amount-item-icon-block {
+    background-color: #81c159
+}
+
+.ks-widget-payment-simple-amount-item.ks-green .ks-amount-icon,
+.ks-widget-payment-simple-amount-item.ks-green .ks-progress-type {
+    color: #81c159
+}
+
+.ks-widget-payment-simple-amount-item.ks-pink .payment-simple-amount-item-icon-block {
+    background-color: #df538b
+}
+
+.ks-widget-payment-simple-amount-item.ks-pink .ks-amount-icon,
+.ks-widget-payment-simple-amount-item.ks-pink .ks-progress-type {
+    color: #df538b
+}
+
+.ks-widget-payment-simple-amount-item.ks-orange .payment-simple-amount-item-icon-block {
+    background-color: #f88528
+}
+
+.ks-widget-payment-simple-amount-item.ks-orange .ks-amount-icon,
+.ks-widget-payment-simple-amount-item.ks-orange .ks-progress-type {
+    color: #f88528
+}
+
+.ks-widget-payment-card-rate-details .card-block {
+    padding-top: 0;
+    padding-bottom: 20px
+}
+
+.ks-widget-payment-card-rate-details .card-block .ks-card-widget-datetime {
+    margin-bottom: 20px
+}
+
+.ks-widget-payment-card-rate-details .ks-payment-card-rate-details-table {
+    margin: 0;
+    width: 100%
+}
+
+.ks-widget-payment-card-rate-details .ks-payment-card-rate-details-table td {
+    font-size: 14px;
+    padding-bottom: 8px
+}
+
+.ks-widget-payment-card-rate-details .ks-payment-card-rate-details-table td.ks-currency {
+    padding-left: 0
+}
+
+.ks-widget-payment-card-rate-details .ks-payment-card-rate-details-table td.ks-currency>.ks-flag {
+    margin-top: -3px;
+    margin-right: 10px;
+    display: inline-block
+}
+
+.ks-widget-payment-card-rate-details .ks-payment-card-rate-details-table td.ks-amount {
+    padding-right: 0;
+    width: 1px;
+    font-weight: 600;
+    text-align: right
+}
+
+.ks-widget-payment-card-rate-details .ks-payment-card-rate-details-table tr:first-child td {
+    border-top: none
+}
+
+.ks-widget-payment-earnings .ks-payment-earnings-chart {
+    height: 155px;
+    margin-left: -36px;
+    margin-right: -36px;
+    margin-bottom: -39px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px
+}
+
+.ks-widget-payment-earnings .ks-payment-earnings-chart .c3-line {
+    stroke-width: 2px
+}
+
+.ks-widget-payment-earnings .ks-payment-earnings-amount {
+    font-size: 36px;
+    font-weight: 500;
+    color: #171717;
+    margin-bottom: 12px
+}
+
+.ks-widget-payment-earnings .ks-payment-earnings-amount-description {
+    font-size: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: rgba(23, 23, 23, .8);
+    margin-bottom: 22px
+}
+
+.ks-widget-payment-budget .card-block {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.ks-widget-payment-budget .ks-thumbnail {
+    display: block
+}
+
+.ks-widget-payment-budget .ks-card-widget-datetime {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e5e5e5
+}
+
+.ks-widget-payment-budget .ks-payment-budget-amount-block>.ks-text-action,
+.ks-widget-payment-budget .ks-payment-budget-remaining-block>.ks-text-action {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 4px
+}
+
+.ks-widget-payment-budget .ks-payment-budget-amount-block>.ks-description,
+.ks-widget-payment-budget .ks-payment-budget-remaining-block>.ks-description {
+    font-size: 12px;
+    color: #858585
+}
+
+.ks-widget-payment-price-ratio {
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+    padding: 31px 35px;
+    border: none;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+.ks-widget-payment-price-ratio .ks-price-ratio-title {
+    font-size: 10px;
+    font-weight: 500;
+    color: rgba(23, 23, 23, .8);
+    text-transform: uppercase;
+    margin-bottom: 17px
+}
+
+.ks-widget-payment-price-ratio .ks-price-ratio-amount {
+    color: #171717;
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 12px
+}
+
+.ks-widget-payment-price-ratio .ks-price-ratio-progress {
+    font-size: 14px;
+    font-weight: 600;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex
+}
+
+.ks-widget-payment-price-ratio .ks-price-ratio-progress>.ks-icon {
+    font-size: 18px;
+    display: inline-block;
+    margin-right: 7px
+}
+
+.ks-widget-payment-price-ratio.ks-green {
+    background-color: rgba(129, 193, 89, .15)
+}
+
+.ks-widget-payment-price-ratio.ks-green .ks-price-ratio-progress {
+    color: #81c159
+}
+
+.ks-widget-payment-price-ratio.ks-purple {
+    background-color: rgba(223, 82, 139, .1)
+}
+
+.ks-widget-payment-price-ratio.ks-purple .ks-price-ratio-progress {
+    color: #df538b
+}
+
+.ks-widget-payment-price-ratio.ks-blue {
+    background-color: #eff1fc
+}
+
+.ks-widget-payment-price-ratio.ks-blue .ks-price-ratio-progress {
+    color: #4e54a8
+}
+
+.ks-widget-payment-price-ratio.ks-yellow {
+    background-color: rgba(248, 238, 62, .2)
+}
+
+.ks-widget-payment-price-ratio.ks-yellow .ks-price-ratio-progress {
+    color: #f88528
+}
+
+.ks-widget-payment-table-invoicing .ks-payment-table-invoicing {
+    margin-top: 20px;
+    margin-bottom: 0
+}
+
+.ks-widget-payment-table-invoicing .ks-payment-table-invoicing tr:first-child td {
+    border-top: none
+}
+
+.ks-widget-payment-table-invoicing .ks-payment-table-invoicing td {
+    padding-bottom: 8px;
+    font-size: 14px
+}
+
+.ks-widget-payment-table-invoicing .ks-payment-table-invoicing td:first-child {
+    padding-left: 0
+}
+
+.ks-widget-payment-table-invoicing .ks-payment-table-invoicing td:last-child {
+    padding-right: 0;
+    text-align: right
+}
+
+.ks-widget-payment-table .ks-payment-table {
+    margin-top: 20px;
+    margin-bottom: 0
+}
+
+.ks-widget-payment-table .ks-payment-table tr:first-child td {
+    border-top: none
+}
+
+.ks-widget-payment-table .ks-payment-table td {
+    vertical-align: middle;
+    padding-bottom: 8px;
+    font-size: 14px
+}
+
+.ks-widget-payment-table .ks-payment-table td:first-child {
+    padding-left: 0
+}
+
+.ks-widget-payment-table .ks-payment-table td:last-child {
+    padding-right: 0;
+    text-align: right
+}
+
+.ks-widget-payment-table .ks-payment-table .ks-avatar {
+    position: relative;
+    margin-top: -2px;
+    display: inline-block;
+    margin-right: 10px
+}
+
+.ks-widget-chart-orders .ks-chart-orders-block {
+    margin-left: -20px
+}
+
+.ks-widget-chart-orders .c3-line {
+    stroke-width: 2px
+}
+
+.ks-widget-chart-orders .c3-axis-x .tick line,
+.ks-widget-chart-orders .c3-axis-y .tick line {
+    opacity: 0
+}
+
+.ks-widget-chart-orders .c3-axis-x .domain,
+.ks-widget-chart-orders .c3-axis-y .domain {
+    opacity: 0
+}
+
+.ks-widget-chart-orders .tick {
+    font-size: 12px;
+    fill: #858585
+}
+
+.ks-widget-chart-orders .c3-legend-item-event {
+    font-size: 12px
+}
+
+.ks-widget-chart-orders .c3-ygrid-line line {
+    stroke: rgba(57, 80, 155, .1)
+}
+
+.ks-widget-payment-total-amount .card-block {
+    margin-top: 10px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
+.ks-widget-payment-total-amount .ks-payment-total-amount-item-icon-block {
+    width: 64px;
+    height: 64px;
+    -webkit-border-radius: 32px;
+    border-radius: 32px;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-right: 10px
+}
+
+.ks-widget-payment-total-amount .ks-payment-total-amount-item-icon-block>.ks-icon {
+    position: relative;
+    left: 1px;
+    color: #fff;
+    font-size: 32px
+}
+
+.ks-widget-payment-total-amount .ks-payment-total-amount-item-icon-block>[class*=ks-icon-] {
+    font-size: 24px
+}
+
+.ks-widget-payment-total-amount .ks-payment-total-amount-item-amount {
+    margin-bottom: 7px;
+    text-align: right
+}
+
+.ks-widget-payment-total-amount .ks-payment-total-amount-item-amount>.ks-amount {
+    font-size: 36px;
+    font-weight: 600;
+    display: inline-block
+}
+
+.ks-widget-payment-total-amount .ks-payment-total-amount-item-description {
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: right
+}
+
+.ks-widget-payment-total-amount .ks-payment-total-amount-item-description>.ks-progress-type {
+    font-weight: 600;
+    text-align: right
+}
+
+.ks-widget-payment-total-amount.ks-purple-light .ks-payment-total-amount-item-icon-block {
+    background-color: #eff1fc
+}
+
+.ks-widget-payment-total-amount.ks-purple-light .ks-payment-total-amount-item-icon-block>.ks-icon {
+    color: #4e54a8
+}
+
+.ks-widget-payment-total-amount.ks-green-light .ks-payment-total-amount-item-icon-block {
+    background-color: rgba(129, 193, 89, .15)
+}
+
+.ks-widget-payment-total-amount.ks-green-light .ks-payment-total-amount-item-icon-block>.ks-icon {
+    color: #81c159
+}
+
+.ks-widget-payment-total-amount.ks-pink-light .ks-payment-total-amount-item-icon-block {
+    background-color: rgba(255, 61, 0, .1)
+}
+
+.ks-widget-payment-total-amount.ks-pink-light .ks-payment-total-amount-item-icon-block>.ks-icon {
+    color: #df538b
+}
+
+.ks-widget-payment-total-amount.ks-orange-light .ks-payment-total-amount-item-icon-block {
+    background-color: rgba(248, 238, 62, .2)
+}
+
+.ks-widget-payment-total-amount.ks-orange-light .ks-payment-total-amount-item-icon-block>.ks-icon {
+    color: #f88528
+}
+
+.ks-payment-widget-table-and-map .card-block {
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+
+.ks-payment-widget-table-and-map .card-block .ks-card-widget-datetime {
+    margin-bottom: 20px
+}
+
+.ks-payment-widget-table-and-map .ks-payment-widget-table-and-map-table {
+    margin: 0;
+    width: 100%
+}
+
+.ks-payment-widget-table-and-map .ks-payment-widget-table-and-map-table td {
+    font-size: 14px;
+    padding-bottom: 8px
+}
+
+.ks-payment-widget-table-and-map .ks-payment-widget-table-and-map-table td.ks-flag {
+    padding-left: 0;
+    padding-right: 0
+}
+
+.ks-payment-widget-table-and-map .ks-payment-widget-table-and-map-table td.ks-flag>img {
+    margin-top: -4px;
+    margin-right: 10px;
+    display: inline-block
+}
+
+.ks-payment-widget-table-and-map .ks-payment-widget-table-and-map-table td.ks-amount {
+    padding-right: 0;
+    width: 20%;
+    font-weight: 600;
+    text-align: right
+}
+
+.ks-payment-widget-table-and-map .ks-payment-widget-table-and-map-table tr:first-child td {
+    border-top: none
+}
+
+.ks-widget-payment-active-clients .ks-card-widget-datetime {
+    margin-bottom: 30px
+}
+
+.ks-widget-payment-active-clients .ks-active-clients-category-progress {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #858585;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 24px
+}
+
+.ks-widget-payment-active-clients .ks-active-clients-category-progress .ks-name {
+    font-weight: 500;
+    color: #333;
+    min-width: 50px
+}
+
+.ks-widget-payment-active-clients .ks-active-clients-category-progress .progress {
+    min-width: 180px;
+    margin: 0 20px
+}
+
+.ks-widget-payment-active-clients .ks-active-clients-category-progress+.ks-active-clients-category-progress {
+    margin-top: 19px
+}
+
+.ks-widget-payment-active-clients .ks-active-clients-category-progress+hr {
+    margin-top: 26px
+}
+.isdesk .row+.row {
+    margin-top: 30px;
+}
+
+.isdesk .card+.card {
+    margin-top: 30px;
+}
+
+
+@media (min-width: 1200px) {
+    .dashrow {
+        margin-left: 279px;
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .sidebar-collapse .dashrow {
+        margin-left: 0px;
+        margin-right: 0;
+    }
+}
+
+
+.vtl{
+    text-align: left;
+}
+
+.card {
+    border: solid 1px #dee0e1;
+    margin: 0;
+}
+
+.facolor {
+    color: white;
+    font-size: 24px;
+}
+
+.ks-widget-payment-simple-amount-item {
+    min-height: 124px;
+    padding: 30px 20px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    border-color: #e5e5e5;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
+.ks-widget-payment-simple-amount-item .payment-simple-amount-item-icon-block {
+    width: 64px;
+    height: 64px;
+    -webkit-border-radius: 32px;
+    border-radius: 32px;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-right: 20px
+}
+
+.ks-widget-payment-simple-amount-item .payment-simple-amount-item-icon-block>.ks-icon {
+    position: relative;
+    left: 1px;
+    color: #fff;
+    font-size: 32px
+}
+
+.ks-widget-payment-simple-amount-item .payment-simple-amount-item-icon-block>[class*=ks-icon-] {
+    font-size: 24px
+}
+
+.ks-widget-payment-simple-amount-item .payment-simple-amount-item-amount {
+    margin-bottom: 7px
+}
+
+.ks-widget-payment-simple-amount-item .payment-simple-amount-item-amount>.ks-amount {
+    font-size: 24px;
+    font-weight: 600;
+    display: inline-block;
+    margin-right: 16px
+}
+
+.ks-widget-payment-simple-amount-item .payment-simple-amount-item-amount>.ks-amount-icon {
+    font-size: 18px;
+    -webkit-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    transform: rotate(-360deg)
+}
+
+.ks-widget-payment-simple-amount-item .payment-simple-amount-item-description {
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 500
+}
+
+.ks-widget-payment-simple-amount-item .payment-simple-amount-item-description>.ks-progress-type {
+    font-weight: 600
+}
+
+.ks-widget-payment-simple-amount-item.ks-purple .payment-simple-amount-item-icon-block {
+    background-color: #4e54a8
+}
+
+.ks-widget-payment-simple-amount-item.ks-purple .ks-amount-icon,
+.ks-widget-payment-simple-amount-item.ks-purple .ks-progress-type {
+    color: #4e54a8
+}
+
+.ks-widget-payment-simple-amount-item.ks-green .payment-simple-amount-item-icon-block {
+    background-color: #81c159
+}
+
+.ks-widget-payment-simple-amount-item.ks-green .ks-amount-icon,
+.ks-widget-payment-simple-amount-item.ks-green .ks-progress-type {
+    color: #81c159
+}
+
+.ks-widget-payment-simple-amount-item.ks-pink .payment-simple-amount-item-icon-block {
+    background-color: #df538b
+}
+
+.ks-widget-payment-simple-amount-item.ks-pink .ks-amount-icon,
+.ks-widget-payment-simple-amount-item.ks-pink .ks-progress-type {
+    color: #df538b
+}
+
+.ks-widget-payment-simple-amount-item.ks-orange .payment-simple-amount-item-icon-block {
+    background-color: #f88528
+}
+
+.ks-widget-payment-simple-amount-item.ks-orange .ks-amount-icon,
+.ks-widget-payment-simple-amount-item.ks-orange .ks-progress-type {
+    color: #f88528
+}
+
+.ks-widget-payment-card-rate-details .card-block {
+    padding-top: 0;
+    padding-bottom: 20px
+}
+
+.ks-widget-payment-card-rate-details .card-block .ks-card-widget-datetime {
+    margin-bottom: 20px
+}
+
+.ks-widget-payment-card-rate-details .ks-payment-card-rate-details-table {
+    margin: 0;
+    width: 100%
+}
+
+.ks-widget-payment-card-rate-details .ks-payment-card-rate-details-table td {
+    font-size: 14px;
+    padding-bottom: 8px
+}
+
+.ks-widget-payment-card-rate-details .ks-payment-card-rate-details-table td.ks-currency {
+    padding-left: 0
+}
+
+.ks-widget-payment-card-rate-details .ks-payment-card-rate-details-table td.ks-currency>.ks-flag {
+    margin-top: -3px;
+    margin-right: 10px;
+    display: inline-block
+}
+
+.ks-widget-payment-card-rate-details .ks-payment-card-rate-details-table td.ks-amount {
+    padding-right: 0;
+    width: 1px;
+    font-weight: 600;
+    text-align: right
+}
+
+.ks-widget-payment-card-rate-details .ks-payment-card-rate-details-table tr:first-child td {
+    border-top: none
+}
+
+.ks-widget-payment-earnings .ks-payment-earnings-chart {
+    height: 155px;
+    margin-left: -36px;
+    margin-right: -36px;
+    margin-bottom: -39px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px
+}
+
+.ks-widget-payment-earnings .ks-payment-earnings-chart .c3-line {
+    stroke-width: 2px
+}
+
+.ks-widget-payment-earnings .ks-payment-earnings-amount {
+    font-size: 36px;
+    font-weight: 500;
+    color: #171717;
+    margin-bottom: 12px
+}
+
+.ks-widget-payment-earnings .ks-payment-earnings-amount-description {
+    font-size: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: rgba(23, 23, 23, .8);
+    margin-bottom: 22px
+}
+
+.ks-widget-payment-budget .card-block {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.ks-widget-payment-budget .ks-thumbnail {
+    display: block
+}
+
+.ks-widget-payment-budget .ks-card-widget-datetime {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e5e5e5
+}
+
+.ks-widget-payment-budget .ks-payment-budget-amount-block>.ks-text-action,
+.ks-widget-payment-budget .ks-payment-budget-remaining-block>.ks-text-action {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 4px
+}
+
+.ks-widget-payment-budget .ks-payment-budget-amount-block>.ks-description,
+.ks-widget-payment-budget .ks-payment-budget-remaining-block>.ks-description {
+    font-size: 12px;
+    color: #858585
+}
+
+.ks-widget-payment-price-ratio {
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+    padding: 31px 35px;
+    border: none;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+.ks-widget-payment-price-ratio .ks-price-ratio-title {
+    font-size: 10px;
+    font-weight: 500;
+    color: rgba(23, 23, 23, .8);
+    text-transform: uppercase;
+    margin-bottom: 17px
+}
+
+.ks-widget-payment-price-ratio .ks-price-ratio-amount {
+    color: #171717;
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 12px
+}
+
+.ks-widget-payment-price-ratio .ks-price-ratio-progress {
+    font-size: 14px;
+    font-weight: 600;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex
+}
+
+.ks-widget-payment-price-ratio .ks-price-ratio-progress>.ks-icon {
+    font-size: 18px;
+    display: inline-block;
+    margin-right: 7px
+}
+
+.ks-widget-payment-price-ratio.ks-green {
+    background-color: rgba(129, 193, 89, .15)
+}
+
+.ks-widget-payment-price-ratio.ks-green .ks-price-ratio-progress {
+    color: #81c159
+}
+
+.ks-widget-payment-price-ratio.ks-purple {
+    background-color: rgba(223, 82, 139, .1)
+}
+
+.ks-widget-payment-price-ratio.ks-purple .ks-price-ratio-progress {
+    color: #df538b
+}
+
+.ks-widget-payment-price-ratio.ks-blue {
+    background-color: #eff1fc
+}
+
+.ks-widget-payment-price-ratio.ks-blue .ks-price-ratio-progress {
+    color: #4e54a8
+}
+
+.ks-widget-payment-price-ratio.ks-yellow {
+    background-color: rgba(248, 238, 62, .2)
+}
+
+.ks-widget-payment-price-ratio.ks-yellow .ks-price-ratio-progress {
+    color: #f88528
+}
+
+.ks-widget-payment-table-invoicing .ks-payment-table-invoicing {
+    margin-top: 20px;
+    margin-bottom: 0
+}
+
+.ks-widget-payment-table-invoicing .ks-payment-table-invoicing tr:first-child td {
+    border-top: none
+}
+
+.ks-widget-payment-table-invoicing .ks-payment-table-invoicing td {
+    padding-bottom: 8px;
+    font-size: 14px
+}
+
+.ks-widget-payment-table-invoicing .ks-payment-table-invoicing td:first-child {
+    padding-left: 0
+}
+
+.ks-widget-payment-table-invoicing .ks-payment-table-invoicing td:last-child {
+    padding-right: 0;
+    text-align: right
+}
+
+.ks-widget-payment-table .ks-payment-table {
+    margin-top: 20px;
+    margin-bottom: 0
+}
+
+.ks-widget-payment-table .ks-payment-table tr:first-child td {
+    border-top: none
+}
+
+.ks-widget-payment-table .ks-payment-table td {
+    vertical-align: middle;
+    padding-bottom: 8px;
+    font-size: 14px
+}
+
+.ks-widget-payment-table .ks-payment-table td:first-child {
+    padding-left: 0
+}
+
+.ks-widget-payment-table .ks-payment-table td:last-child {
+    padding-right: 0;
+    text-align: right
+}
+
+.ks-widget-payment-table .ks-payment-table .ks-avatar {
+    position: relative;
+    margin-top: -2px;
+    display: inline-block;
+    margin-right: 10px
+}
+
+.ks-widget-chart-orders .ks-chart-orders-block {
+    margin-left: -20px
+}
+
+.ks-widget-chart-orders .c3-line {
+    stroke-width: 2px
+}
+
+.ks-widget-chart-orders .c3-axis-x .tick line,
+.ks-widget-chart-orders .c3-axis-y .tick line {
+    opacity: 0
+}
+
+.ks-widget-chart-orders .c3-axis-x .domain,
+.ks-widget-chart-orders .c3-axis-y .domain {
+    opacity: 0
+}
+
+.ks-widget-chart-orders .tick {
+    font-size: 12px;
+    fill: #858585
+}
+
+.ks-widget-chart-orders .c3-legend-item-event {
+    font-size: 12px
+}
+
+.ks-widget-chart-orders .c3-ygrid-line line {
+    stroke: rgba(57, 80, 155, .1)
+}
+
+.ks-widget-payment-total-amount .card-block {
+    margin-top: 10px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
+.ks-widget-payment-total-amount .ks-payment-total-amount-item-icon-block {
+    width: 64px;
+    height: 64px;
+    -webkit-border-radius: 32px;
+    border-radius: 32px;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-right: 10px
+}
+
+.ks-widget-payment-total-amount .ks-payment-total-amount-item-icon-block>.ks-icon {
+    position: relative;
+    left: 1px;
+    color: #fff;
+    font-size: 32px
+}
+
+.ks-widget-payment-total-amount .ks-payment-total-amount-item-icon-block>[class*=ks-icon-] {
+    font-size: 24px
+}
+
+.ks-widget-payment-total-amount .ks-payment-total-amount-item-amount {
+    margin-bottom: 7px;
+    text-align: right
+}
+
+.ks-widget-payment-total-amount .ks-payment-total-amount-item-amount>.ks-amount {
+    font-size: 36px;
+    font-weight: 600;
+    display: inline-block
+}
+
+.ks-widget-payment-total-amount .ks-payment-total-amount-item-description {
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: right
+}
+
+.ks-widget-payment-total-amount .ks-payment-total-amount-item-description>.ks-progress-type {
+    font-weight: 600;
+    text-align: right
+}
+
+.ks-widget-payment-total-amount.ks-purple-light .ks-payment-total-amount-item-icon-block {
+    background-color: #eff1fc
+}
+
+.ks-widget-payment-total-amount.ks-purple-light .ks-payment-total-amount-item-icon-block>.ks-icon {
+    color: #4e54a8
+}
+
+.ks-widget-payment-total-amount.ks-green-light .ks-payment-total-amount-item-icon-block {
+    background-color: rgba(129, 193, 89, .15)
+}
+
+.ks-widget-payment-total-amount.ks-green-light .ks-payment-total-amount-item-icon-block>.ks-icon {
+    color: #81c159
+}
+
+.ks-widget-payment-total-amount.ks-pink-light .ks-payment-total-amount-item-icon-block {
+    background-color: rgba(255, 61, 0, .1)
+}
+
+.ks-widget-payment-total-amount.ks-pink-light .ks-payment-total-amount-item-icon-block>.ks-icon {
+    color: #df538b
+}
+
+.ks-widget-payment-total-amount.ks-orange-light .ks-payment-total-amount-item-icon-block {
+    background-color: rgba(248, 238, 62, .2)
+}
+
+.ks-widget-payment-total-amount.ks-orange-light .ks-payment-total-amount-item-icon-block>.ks-icon {
+    color: #f88528
+}
+
+.ks-payment-widget-table-and-map .card-block {
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+
+.ks-payment-widget-table-and-map .card-block .ks-card-widget-datetime {
+    margin-bottom: 20px
+}
+
+.ks-payment-widget-table-and-map .ks-payment-widget-table-and-map-table {
+    margin: 0;
+    width: 100%
+}
+
+.ks-payment-widget-table-and-map .ks-payment-widget-table-and-map-table td {
+    font-size: 14px;
+    padding-bottom: 8px
+}
+
+.ks-payment-widget-table-and-map .ks-payment-widget-table-and-map-table td.ks-flag {
+    padding-left: 0;
+    padding-right: 0
+}
+
+.ks-payment-widget-table-and-map .ks-payment-widget-table-and-map-table td.ks-flag>img {
+    margin-top: -4px;
+    margin-right: 10px;
+    display: inline-block
+}
+
+.ks-payment-widget-table-and-map .ks-payment-widget-table-and-map-table td.ks-amount {
+    padding-right: 0;
+    width: 20%;
+    font-weight: 600;
+    text-align: right
+}
+
+.ks-payment-widget-table-and-map .ks-payment-widget-table-and-map-table tr:first-child td {
+    border-top: none
+}
+
+.ks-widget-payment-active-clients .ks-card-widget-datetime {
+    margin-bottom: 30px
+}
+
+.ks-widget-payment-active-clients .ks-active-clients-category-progress {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #858585;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 24px
+}
+
+.ks-widget-payment-active-clients .ks-active-clients-category-progress .ks-name {
+    font-weight: 500;
+    color: #333;
+    min-width: 50px
+}
+
+.ks-widget-payment-active-clients .ks-active-clients-category-progress .progress {
+    min-width: 180px;
+    margin: 0 20px
+}
+
+.ks-widget-payment-active-clients .ks-active-clients-category-progress+.ks-active-clients-category-progress {
+    margin-top: 19px
+}
+
+.ks-widget-payment-active-clients .ks-active-clients-category-progress+hr {
+    margin-top: 26px
+}
+
+.ks-dashboard-tabbed-sidebar {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex
+}
+
+.ks-dashboard-tabbed-sidebar-widgets {
+    margin-right: 394px;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    padding: 30px;
+    overflow: auto
+}
+
+.ks-dashboard-tabbed-sidebar-sidebar {
+    width: 394px;
+    min-width: 300px;
+    border-left: 1px solid #dee0e1;
+    position: fixed;
+    right: 0;
+    top: 120px;
+    height: -webkit-calc(100% - 120px);
+    height: calc(100% - 120px);
+    background: #fff
+}
+
+.ks-dashboard-tabbed-sidebar-sidebar .ks-tabs-container {
+    border: none
+}
+
+.ks-dashboard-tabbed-sidebar-sidebar .ks-tabs-container .ks-nav-tabs .nav-item {
+    width: 25%
+}
+
+.ks-dashboard-tabbed-sidebar-sidebar .ks-tabs-container .ks-nav-tabs .nav-link {
+    text-align: center
+}
+
+.ks-dashboard-tabbed-sidebar-sidebar .ks-tabs-container .ks-nav-tabs .nav-link:before {
+    top: 0
+}
+
+.ks-dashboard-tabbed-sidebar-sidebar .ks-tabs-container .ks-nav-tabs .nav-link .ks-icon {
+    margin: 0;
+    font-size: 20px;
+    position: relative
+}
+
+.ks-dashboard-tabbed-sidebar-sidebar .ks-tabs-container .ks-nav-tabs .nav-link .ks-icon>.ks-amount {
+    font-family: Montserrat, sans-serif;
+    position: absolute;
+    right: -9px;
+    top: -6px;
+    font-size: 11px;
+    font-weight: 500
+}
+
+.ks-tabbed-sidebar-tab-content-header {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.ks-tabbed-sidebar-tab-content-header>h5 {
+    margin: 0
+}
+
+.ks-tabbed-sidebar-tab-content-header>.form-control {
+    margin-left: 10px
+}
+
+.ks-tabbed-sidebar-activity-items,
+.ks-tabbed-sidebar-comment-items,
+.ks-tabbed-sidebar-favourites-items,
+.ks-tabbed-sidebar-post-items {
+    margin-top: 20px;
+    margin-left: -20px;
+    margin-right: -20px
+}
+
+.ks-tabbed-sidebar-activity-item {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 6px 20px
+}
+
+.ks-tabbed-sidebar-activity-item .ks-action-icon,
+.ks-tabbed-sidebar-activity-item .ks-avatar {
+    width: 25px;
+    height: 25px;
+    min-width: 25px;
+    min-height: 25px;
+    margin-right: 15px;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex
+}
+
+.ks-tabbed-sidebar-activity-item .ks-action-icon {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.ks-tabbed-sidebar-activity-item .ks-action-icon>.ks-icon {
+    font-size: 20px;
+    line-height: 20px;
+    color: #25628f;
+    position: relative;
+    top: 2px
+}
+
+.ks-tabbed-sidebar-activity-item .ks-action-message {
+    font-size: 12px;
+    color: #858585;
+    position: relative;
+    top: 1px
+}
+
+.ks-tabbed-sidebar-activity-item .badge {
+    margin-left: 10px;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex
+}
+
+.ks-tabbed-sidebar-activity-item.ks-activity-item-status-active {
+    background-color: rgba(57, 80, 155, .05)
+}
+
+.ks-tabbed-sidebar-activity-item.ks-activity-item-status-active .ks-action-message {
+    color: #333
+}
+
+.ks-tabbed-sidebar-comment-item {
+    margin-left: 20px;
+    margin-right: 20px
+}
+
+.ks-tabbed-sidebar-comment-item+.ks-tabbed-sidebar-comment-item {
+    margin-top: 30px
+}
+
+.ks-tabbed-sidebar-comment-item .ks-tabbed-sidebar-comment-action {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex
+}
+
+.ks-tabbed-sidebar-comment-item .ks-tabbed-sidebar-comment-action .ks-avatar {
+    width: 25px;
+    height: 25px;
+    min-width: 25px;
+    min-height: 25px;
+    margin-right: 15px
+}
+
+.ks-tabbed-sidebar-comment-item .ks-tabbed-sidebar-comment-action>.ks-action>.ks-name {
+    color: #333
+}
+
+.ks-tabbed-sidebar-comment-item .ks-tabbed-sidebar-comment-action>.ks-action>.ks-description {
+    color: #858585
+}
+
+.ks-tabbed-sidebar-comment-item .ks-tabbed-sidebar-comment-action>.ks-action>.ks-datetime {
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #858585
+}
+
+.ks-tabbed-sidebar-comment-item .ks-tabbed-sidebar-comment-item-message {
+    margin-top: 15px;
+    font-size: 12px;
+    padding: 15px 20px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    background-color: rgba(222, 186, 12, .1)
+}
+
+.ks-tabbed-sidebar-favourite-item,
+.ks-tabbed-sidebar-post-item {
+    padding: 15px 20px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    border-top: 1px solid #dee0e1
+}
+
+.ks-tabbed-sidebar-favourite-item .ks-thumb,
+.ks-tabbed-sidebar-post-item .ks-thumb {
+    width: 36px;
+    height: 36px;
+    min-width: 36px;
+    min-height: 36px;
+    margin-right: 15px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px
+}
+
+.ks-tabbed-sidebar-favourite-item .ks-description>.ks-name,
+.ks-tabbed-sidebar-post-item .ks-description>.ks-name {
+    margin-top: -1px;
+    font-size: 14px;
+    display: block;
+    color: #333
+}
+
+.ks-tabbed-sidebar-favourite-item .ks-description>.ks-extra-info,
+.ks-tabbed-sidebar-post-item .ks-description>.ks-extra-info {
+    display: block;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #858585
+}
+
+.ks-tabbed-sidebar-favourite-item .ks-description>.ks-extra-info .ks-amount-block,
+.ks-tabbed-sidebar-post-item .ks-description>.ks-extra-info .ks-amount-block {
+    display: inline-block;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #858585
+}
+
+.ks-tabbed-sidebar-favourite-item .ks-description>.ks-extra-info .ks-amount-block+.ks-amount-block,
+.ks-tabbed-sidebar-post-item .ks-description>.ks-extra-info .ks-amount-block+.ks-amount-block {
+    margin-left: 10px
+}
+
+.ks-tabbed-sidebar-favourite-item {
+    position: relative
+}
+
+.ks-tabbed-sidebar-favourite-item .ks-action-icon,
+.ks-tabbed-sidebar-favourite-item .ks-avatar {
+    width: 36px;
+    height: 36px;
+    min-width: 36px;
+    min-height: 36px;
+    margin-right: 15px;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex
+}
+
+.ks-tabbed-sidebar-favourite-item .ks-action-icon {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.ks-tabbed-sidebar-favourite-item .ks-action-icon>.ks-icon {
+    font-size: 24px;
+    line-height: 24px;
+    color: #25628f;
+    position: relative;
+    top: 1px
+}
+
+.ks-tabbed-sidebar-favourite-item .ks-action-icon.ks-action-file>.ks-icon {
+    font-size: 30px;
+    line-height: 30px
+}
+
+.ks-tabbed-sidebar-favourite-item .btn.ks-remove {
+    display: none;
+    position: absolute;
+    top: 50%;
+    margin-top: -19px;
+    right: 20px
+}
+
+.ks-tabbed-sidebar-favourite-item:hover .ks-remove {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex
+}
+
+.ks-dashboard-tabbed-sidebar-fixed-tabs .btn.ks-tabbed-sidebar-navigation-block-toggle {
+    position: static
+}
+
+.ks-dashboard-tabbed-sidebar-fixed-tabs .ks-dashboard-tabbed-sidebar-widgets {
+    margin-right: 0
+}
+
+.ks-dashboard-tabbed-sidebar-fixed-tabs .ks-dashboard-tabbed-sidebar-sidebar {
+    position: fixed;
+    top: 120px;
+    bottom: 0;
+    right: -394px;
+    z-index: 3;
+    height: 100%
+}
+
+.ks-dashboard-tabbed-sidebar-fixed-tabs .ks-dashboard-tabbed-sidebar-sidebar.ks-open {
+    right: 0;
+    -webkit-transition: right .2s ease;
+    transition: right .2s ease
+}
+
+@media screen and (max-width: 1670px) {
+    .btn.ks-tabbed-sidebar-navigation-block-toggle-icon {
+        position: static
+    }
+
+    .ks-dashboard-tabbed-sidebar-widgets {
+        margin-right: 0
+    }
+
+    .ks-dashboard-tabbed-sidebar-sidebar {
+        position: fixed;
+        top: 120px;
+        bottom: 0;
+        right: -394px;
+        z-index: 3;
+        height: 100%
+    }
+
+    .ks-dashboard-tabbed-sidebar-sidebar.ks-open {
+        right: 0;
+        -webkit-transition: right .2s ease;
+        transition: right .2s ease
+    }
+}
+
+@media screen and (max-width: 990px) {
+    div[class*=col-]>.card {
+        margin-bottom: 30px
+    }
+
+    div[class*=col-]:last-child>.card {
+        margin-bottom: 0
+    }
+}
+
+
+/*=======================================================================================================*/
+
+.ks-card-widget {
+    padding: 0;
+    -webkit-border-radius: 3px;
+    border-radius: 3px
+}
+
+.ks-card-widget .card-header {
+    margin: 0;
+    background: #fff;
+    border-bottom: none;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 26px 30px 10px 30px;
+    font-size: 18px;
+    color: #333;
+    font-weight: 400
+}
+
+.ks-card-widget .card-header>.ks-control {
+    margin-right: -9px
+}
+
+.ks-card-widget .card-header>.ks-control .ks-icon {
+    font-size: 28px;
+    color: #b6ada1
+}
+
+.ks-card-widget .card-header>.ks-controls .ks-control-link {
+    font-size: 12px;
+    color: #858585
+}
+
+.ks-card-widget .card-header>.ks-controls .ks-control-icon {
+    font-size: 28px;
+    color: #b6ada1;
+    line-height: 27px;
+    margin-top: -6px;
+    display: inline-block;
+    margin-left: 25px
+}
+
+.ks-card-widget .card-block {
+    padding: 0 30px 30px 30px
+}
+
+.ks-card-widget .ks-card-widget-datetime {
+    margin-bottom: 20px;
+    font-size: 12px;
+    line-height: 1.67;
+    color: #858585
+}
+
+.ks-card-widget .ks-card-widget-datetime .ks-text-bold {
+    color: #333
+}
+
+.ks-card-widget.ks-card-widget-simple .card-header {
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    padding: 5px 30px 0 30px
+}
+
+.ks-card-widget.ks-card-widget-simple .card-header>.ks-control {
+    margin-right: -20px
+}
+
+.card {
+    /* -webkit-border-radius:2px; */
+    /* border-radius:2px; */
+    /* border:1px solid #dee0e1; */
+}
+
+.card-header {
+    padding: 15px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #dee0e1;
+    font-size: 17px;
+    line-height: 20px;
+    margin: 0!important
+}
+
+.card-header:first-child {
+    -webkit-border-radius: 0;
+    border-radius: 0
+}
+
+.card-header-pills {
+    padding: 0;
+    margin: -7px -13px
+}
+
+.card-header-pills .nav-link {
+    padding: 7px 18px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px
+}
+
+.card-header-pills .nav-link.active {
+    background: #25628f
+}
+
+.card-header-tabs {
+    padding: 0;
+    background: 0 0;
+    margin: -7px -13px -16px -13px
+}
+
+.card-header-tabs .nav-link {
+    padding: .65em 1em;
+    -webkit-border-top-right-radius: 2px;
+    border-top-right-radius: 2px;
+    -webkit-border-top-left-radius: 2px;
+    border-top-left-radius: 2px
+}
+
+.card-header-tabs .nav-link :active,
+.card-header-tabs .nav-link :focus,
+.card-header-tabs .nav-link:hover:not(.active) {
+    border-color: transparent!important
+}
+
+.card-block {
+    padding: 16px 20px;
+    font-size: 13px
+}
+
+.card-footer {
+    border-top: 1px solid #dee0e1;
+    background: #f9fafb;
+    color: rgba(0, 0, 0, .4);
+    font-size: 13px;
+    line-height: 20px;
+    padding: 15px 20px
+}
+
+.card-text {
+    font-size: 13px
+}
+
+.card-inverse .card-footer,
+.card-inverse .card-header {
+    border-color: rgba(255, 255, 255, .15)
+}
+
+.card-primary {
+    background-color: #25628f;
+    border-color: #25628f
+}
+
+.card-secondary {
+    background-color: #ebebeb;
+    border-color: #ebebeb
+}
+
+.card-secondary .card-header {
+    border-bottom-color: rgba(0, 0, 0, .1)
+}
+
+.card-secondary .card-block,
+.card-secondary .card-blockquote,
+.card-secondary .card-footer,
+.card-secondary .card-header,
+.card-secondary .card-text {
+    color: #333
+}
+
+.card-success {
+    background-color: #4caf50;
+    border-color: #4caf50
+}
+
+.card-info {
+    background-color: #42a5f5;
+    border-color: #42a5f5
+}
+
+.card-warning {
+    background-color: #ffb300;
+    border-color: #ffb300
+}
+
+.card-danger {
+    background-color: #ef5350;
+    border-color: #ef5350
+}
+
+[class*=card-outline-] .card-header {
+    background: 0 0
+}
+
+[class*=card-outline-] .card-header[class*=bg-] {
+    color: #fff
+}
+
+.card-outline-primary {
+    border-color: #25628f
+}
+
+.card-outline-primary .card-footer,
+.card-outline-primary .card-header {
+    border-color: #25628f
+}
+
+.card-outline-secondary {
+    border-color: #ebebeb
+}
+
+.card-outline-secondary .card-footer,
+.card-outline-secondary .card-header {
+    color: #333!important;
+    border-color: #ebebeb
+}
+
+.card-outline-info {
+    border-color: #42a5f5
+}
+
+.card-outline-info .card-footer,
+.card-outline-info .card-header {
+    border-color: #42a5f5
+}
+
+.card-outline-success {
+    border-color: #4caf50
+}
+
+.card-outline-success .card-footer,
+.card-outline-success .card-header {
+    border-color: #4caf50
+}
+
+.card-outline-warning {
+    border-color: #ffb300
+}
+
+.card-outline-warning .card-footer,
+.card-outline-warning .card-header {
+    border-color: #ffb300
+}
+
+.card-outline-danger {
+    border-color: #ef5350
+}
+
+.card-outline-danger .card-footer,
+.card-outline-danger .card-header {
+    border-color: #ef5350
+}
+
+.ks-card-solid {
+    border: none;
+    position: relative
+}
+
+.ks-card-solid .card-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ccc;
+    border-bottom: none
+}
+
+.ks-card-accordion .card-header {
+    margin-bottom: 0;
+    cursor: pointer;
+    font-size: 1rem
+}
+
+.ks-card-accordion .card-title {
+    margin-bottom: 0;
+    font-size: 1rem
+}
+
+.ks-card-accordion .card-title a {
+    position: relative;
+    top: 1px
+}
+
+.progress {
+    width: 100%;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    height: 16px;
+    background-color: rgba(57, 81, 155, .1);
+    font-size: 12px
+}
+
+.progress.ks-rounded {
+    -webkit-border-radius: 12px;
+    border-radius: 12px
+}
+
+.progress.ks-progress-sm {
+    height: 10px
+}
+
+.progress.ks-progress-xs {
+    height: 6px
+}
+
+.progress>.progress-bar {
+    background-color: #25628f
+}
+
+.ks-progress.ks-progress-inline {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.ks-progress.ks-progress-inline>.ks-amount {
+    margin-left: 10px;
+    font-size: 12px
+}
+
+.ks-color-primary {
+    color: #25628f
+}
+
+.ks-bg-primary {
+    background: #25628f
+}
+
+.ks-color-success {
+    color: #4caf50!important
+}
+
+.ks-color-info {
+    color: #42a5f5!important
+}
+
+.ks-color-warning {
+    color: #ffb300!important
+}
+
+.ks-color-danger {
+    color: #ef5350!important
+}
+
+.ks-color-pink {
+    color: rgba(209, 73, 208, .6)!important
+}
+
+.ks-color-purple {
+    color: #cb48bb!important
+}
+
+.ks-bg-purple {
+    background: #cb48bb!important
+}
+
+.ks-color-brown {
+    color: #a26363!important
+}
+
+.ks-color-gray,
+.text-gray {
+    color: rgba(51, 51, 51, .6)!important
+}
+
+.ks-text-bold {
+    font-weight: 500
+}
+
+.ks-text-center {
+    text-align: center
+}
+
+.ks-text-right {
+    text-align: right
+}
+
+.ks-text-no-wrap {
+    white-space: nowrap;
+    text-align: left;
+}
+
+.ks-text-light {
+    color: #858585!important
+}
+
+
+
+
+
+/*=========================================================================================================*/
+
+.ks-panel.ks-widget.ks-widget-info>.card-block>.ks-item,
+.panel.ks-widget.ks-widget-info>.card-block>.ks-item {
+    margin-bottom: 20px
+}
+
+.ks-panel.ks-widget.ks-widget-info>.card-block>.ks-item:last-child,
+.panel.ks-widget.ks-widget-info>.card-block>.ks-item:last-child {
+    margin-bottom: 0
+}
+
+.ks-panel.ks-widget.ks-widget-info>.card-block>.ks-item>span,
+.panel.ks-widget.ks-widget-info>.card-block>.ks-item>span {
+    display: block
+}
+
+.ks-panel.ks-widget.ks-widget-info>.card-block>.ks-item>span:first-child,
+.panel.ks-widget.ks-widget-info>.card-block>.ks-item>span:first-child {
+    font-size: 10px;
+    font-weight: 500;
+    color: #858585;
+    text-transform: uppercase
+}
+
+.ks-panel.ks-widget.ks-widget-info>.card-block>.ks-item>span:last-child,
+.panel.ks-widget.ks-widget-info>.card-block>.ks-item>span:last-child {
+    margin-bottom: 0;
+    font-size: 12px
+}
+
+.ks-panel.ks-widget.ks-widget-tags>.card-block,
+.panel.ks-widget.ks-widget-tags>.card-block {
+    padding-bottom: 15px
+}
+
+.ks-panel.ks-widget.ks-widget-tags>.card-block>.badge,
+.panel.ks-widget.ks-widget-tags>.card-block>.badge {
+    -webkit-border-radius: 14px;
+    border-radius: 14px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding: 8px 15px
+}
+
+.ks-panel.ks-widget.ks-widget-users>.card-block>.ks-user,
+.panel.ks-widget.ks-widget-users>.card-block>.ks-user {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 12px
+}
+
+.ks-panel.ks-widget.ks-widget-users>.card-block>.ks-user:last-child,
+.panel.ks-widget.ks-widget-users>.card-block>.ks-user:last-child {
+    margin-bottom: 0
+}
+
+.ks-panel.ks-widget.ks-widget-users>.card-block>.ks-user>.ks-avatar,
+.panel.ks-widget.ks-widget-users>.card-block>.ks-user>.ks-avatar {
+    width: 36px;
+    height: 36px;
+    margin-right: 10px
+}
+
+.ks-panel.ks-widget.ks-widget-users>.card-block>.ks-user>.ks-info,
+.panel.ks-widget.ks-widget-users>.card-block>.ks-user>.ks-info {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto
+}
+
+.ks-panel.ks-widget.ks-widget-users>.card-block>.ks-user>.ks-info>.ks-name,
+.panel.ks-widget.ks-widget-users>.card-block>.ks-user>.ks-info>.ks-name {
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    display: block;
+    color: #333
+}
+
+.ks-panel.ks-widget.ks-widget-users>.card-block>.ks-user>.ks-info>.ks-occupation,
+.panel.ks-widget.ks-widget-users>.card-block>.ks-user>.ks-info>.ks-occupation {
+    font-size: 12px;
+    color: #858585
+}
+
+.ks-panel.ks-widget.ks-widget-users>.card-block>.ks-user>.ks-add,
+.panel.ks-widget.ks-widget-users>.card-block>.ks-user>.ks-add {
+    margin-left: 10px;
+    width: 23px;
+    height: 23px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+    border: solid 1px #25628f;
+    display: block;
+    font-size: 14px;
+    color: #25628f;
+    line-height: 21px;
+    text-align: center;
+    text-decoration: none
+}
+
+.ks-panel.ks-widget.ks-widget-images-grid>.card-block,
+.panel.ks-widget.ks-widget-images-grid>.card-block {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-right: 21px;
+    padding-bottom: 21px
+}
+
+.ks-panel.ks-widget.ks-widget-images-grid>.card-block>.ks-image,
+.panel.ks-widget.ks-widget-images-grid>.card-block>.ks-image {
+    text-decoration: none;
+    margin-right: 9px;
+    margin-bottom: 9px
+}
+
+.ks-panel.ks-widget.ks-widget-images-grid>.card-block>.ks-image:hover,
+.panel.ks-widget.ks-widget-images-grid>.card-block>.ks-image:hover {
+    text-decoration: none
+}
+
+.ks-panel.ks-widget.ks-widget-images-grid>.card-block>.ks-image>img,
+.panel.ks-widget.ks-widget-images-grid>.card-block>.ks-image>img {
+    width: 26px;
+    height: 26px
+}
+
+.ks-panel.ks-widget.ks-widget-photos>.card-block,
+.panel.ks-widget.ks-widget-photos>.card-block {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-right: 19px;
+    padding-bottom: 19px
+}
+
+.ks-panel.ks-widget.ks-widget-photos>.card-block>.ks-photo,
+.panel.ks-widget.ks-widget-photos>.card-block>.ks-photo {
+    text-decoration: none;
+    margin-right: 9px;
+    margin-bottom: 9px
+}
+
+.ks-panel.ks-widget.ks-widget-photos>.card-block>.ks-photo:hover,
+.panel.ks-widget.ks-widget-photos>.card-block>.ks-photo:hover {
+    text-decoration: none
+}
+
+.ks-panel.ks-widget.ks-widget-photos>.card-block>.ks-photo>img,
+.panel.ks-widget.ks-widget-photos>.card-block>.ks-photo>img {
+    width: 62px;
+    height: 62px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px
+}
+
+.ks-panel.ks-widget.ks-widget-videos>.card-block>.ks-video,
+.panel.ks-widget.ks-widget-videos>.card-block>.ks-video {
+    margin-bottom: 20px
+}
+
+.ks-panel.ks-widget.ks-widget-videos>.card-block>.ks-video:last-child,
+.panel.ks-widget.ks-widget-videos>.card-block>.ks-video:last-child {
+    margin-bottom: 0
+}
+
+.ks-panel.ks-widget.ks-widget-videos>.card-block>.ks-video>.ks-thumbnail,
+.panel.ks-widget.ks-widget-videos>.card-block>.ks-video>.ks-thumbnail {
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: block
+}
+
+.ks-panel.ks-widget.ks-widget-videos>.card-block>.ks-video>.ks-thumbnail:hover,
+.panel.ks-widget.ks-widget-videos>.card-block>.ks-video>.ks-thumbnail:hover {
+    text-decoration: none
+}
+
+.ks-panel.ks-widget.ks-widget-videos>.card-block>.ks-video>.ks-thumbnail>img,
+.panel.ks-widget.ks-widget-videos>.card-block>.ks-video>.ks-thumbnail>img {
+    -webkit-border-radius: 2px;
+    border-radius: 2px
+}
+
+.ks-panel.ks-widget.ks-widget-videos>.card-block>.ks-video>.ks-name,
+.panel.ks-widget.ks-widget-videos>.card-block>.ks-video>.ks-name {
+    display: block;
+    font-size: 12px;
+    color: #333;
+    text-decoration: none
+}
+
+.ks-panel.ks-widget.ks-widget-videos>.card-block>.ks-video>.ks-duration,
+.panel.ks-widget.ks-widget-videos>.card-block>.ks-video>.ks-duration {
+    font-size: 10px;
+    font-weight: 500;
+    color: #858585
+}
+
+.ks-panel.ks-widget.ks-widget-social-profiles>.card-block,
+.panel.ks-widget.ks-widget-social-profiles>.card-block {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-right: 21px;
+    padding-bottom: 21px
+}
+
+.ks-panel.ks-widget.ks-widget-social-profiles>.card-block>.ks-social-profile,
+.panel.ks-widget.ks-widget-social-profiles>.card-block>.ks-social-profile {
+    width: 35px;
+    height: 35px;
+    background-color: #fff;
+    border: solid 1px #dee0e1;
+    margin-right: 9px;
+    margin-bottom: 9px;
+    line-height: 36px;
+    text-align: center;
+    -webkit-border-radius: 50%;
+    border-radius: 50%
+}
+
+.ks-panel.ks-widget.ks-widget-social-profiles>.card-block>.ks-social-profile>span,
+.panel.ks-widget.ks-widget-social-profiles>.card-block>.ks-social-profile>span {
+    color: #25628f;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 33px
+}
+
+.ks-panel.ks-widget.ks-widget-social-profiles>.card-block>.ks-add,
+.panel.ks-widget.ks-widget-social-profiles>.card-block>.ks-add {
+    width: 35px;
+    height: 35px;
+    background: #fff;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: solid 1px #25628f;
+    display: block;
+    font-size: 16px;
+    color: #25628f;
+    line-height: 35px;
+    text-align: center;
+    text-decoration: none
+}
+
+.ks-widget>.card-block {
+    padding: 0
+}
+
+.ks-widget.ks-news .ks-list {
+    list-style: none;
+    padding: 0;
+    margin: 0
+}
+
+.ks-widget.ks-news .ks-list .ks-item {
+    display: block;
+    padding: 15px 20px;
+    color: #333
+}
+
+.ks-widget.ks-news .ks-list .ks-item:hover {
+    text-decoration: none
+}
+
+.ks-widget.ks-news .ks-list .ks-item>.ks-datetime {
+    display: block;
+    margin-bottom: 3px;
+    font-size: 10px;
+    color: #858585
+}
+
+.ks-widget.ks-news .ks-list .ks-item>.ks-text {
+    display: block;
+    font-size: 12px
+}
+
+.ks-widget.ks-events>.card-block.scrollable {
+    height: 190px
+}
+
+.ks-widget.ks-events .table {
+    margin: 0
+}
+
+.ks-widget.ks-events .table td {
+    padding-top: 15px;
+    padding-bottom: 15px
+}
+
+.ks-widget.ks-events .table tr:first-child td {
+    border-top: none
+}
+
+.ks-widget.ks-events .ks-icon>span {
+    text-align: center;
+    font-size: 26px;
+    width: 42px;
+    height: 42px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    line-height: 42px
+}
+
+.ks-widget.ks-events .ks-icon>span.text-danger {
+    background: rgba(236, 100, 75, .1)
+}
+
+.ks-widget.ks-events .ks-icon>span.text-success {
+    background-color: rgba(46, 204, 113, .1)
+}
+
+.ks-widget.ks-events .ks-icon>span.text-info {
+    background-color: rgba(33, 166, 240, .1)
+}
+
+.ks-widget.ks-events .ks-text {
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 3px
+}
+
+.ks-widget.ks-events .ks-datetime {
+    font-size: 10px;
+    color: #858585
+}
+
+.ks-widget.ks-events .ks-amount {
+    width: 1px;
+    white-space: nowrap;
+    text-align: right
+}
+
+.ks-widget.ks-chart #ks-chart .c3-line-data1,
+.ks-widget.ks-chart #ks-chart .c3-line-data2 {
+    stroke-width: 2px
+}
+
+.ks-widget.ks-chart .card-block>.ks-header {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 13px 20px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-bottom: 1px solid #d7dceb
+}
+
+.ks-widget.ks-chart .card-block>.ks-header>.ks-labels>.ks-label {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 12px;
+    line-height: 12px
+}
+
+.ks-widget.ks-chart .card-block>.ks-header>.ks-labels>.ks-label>.ks-point {
+    width: 13px;
+    height: 13px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    display: inline-block;
+    margin-right: 7px;
+    position: relative;
+    top: 2px
+}
+
+.ks-widget.ks-chart .card-block>.ks-header>.ks-sort>.dropdown>.btn {
+    padding: 0;
+    height: auto
+}
+
+.ks-widget.ks-chart .card-block>.ks-header>.ks-sort>.dropdown>.btn>.ks-text {
+    color: #858585;
+    display: inline-block;
+    margin-right: 2px
+}
+
+.ks-widget.ks-chart .card-block>.ks-header>.ks-sort>.dropdown>.dropdown-menu {
+    margin-top: 8px;
+    margin-right: 0
+}
+
+.ks-widget.ks-chart .card-block>.ks-wrapper {
+    padding: 20px 25px 20px 15px
+}
+
+.ks-widget-audio {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    padding: 15px 20px;
+    background: #fff;
+    -webkit-border-bottom-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    -webkit-border-bottom-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start
+}
+
+.ks-widget-audio>.ks-control {
+    width: 36px;
+    height: 36px;
+    -webkit-border-radius: 18px;
+    border-radius: 18px;
+    border: solid 1px rgba(57, 81, 155, .3);
+    color: #25628f;
+    font-size: 20px;
+    text-align: center;
+    line-height: 34px;
+    margin-right: 15px;
+    cursor: pointer;
+    background: #fff
+}
+
+.ks-widget-audio>.ks-control>span {
+    position: relative;
+    left: 1px
+}
+
+.ks-widget-audio>.ks-info {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto
+}
+
+.ks-widget-audio>.ks-info>.ks-header {
+    margin-bottom: 10px
+}
+
+.ks-widget-audio>.ks-info>.ks-header>.ks-album-name {
+    margin-bottom: 2px
+}
+
+.ks-widget-audio>.ks-info>.ks-header>.ks-album-name>span {
+    color: #858585
+}
+
+.ks-widget-audio>.ks-info>.ks-header>.ks-song-name {
+    font-weight: 500
+}
+
+.ks-widget-audio>.ks-info>.ks-body>.progress {
+    margin-bottom: 10px
+}
+
+.ks-widget-audio>.ks-info>.ks-body>.ks-time {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    font-size: 10px
+}
+
+.ks-widget-profile-default>.card-block {
+    padding: 0
+}
+
+.ks-widget-profile-default>.card-block>.ks-user {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    padding: 20px;
+    height: 95px
+}
+
+.ks-widget-profile-default>.card-block>.ks-user>.ks-avatar {
+    margin-right: 12px
+}
+
+.ks-widget-profile-default>.card-block>.ks-user>.ks-avatar>img {
+    width: 55px;
+    height: 55px
+}
+
+.ks-widget-profile-default>.card-block>.ks-user>.ks-info>.ks-name {
+    color: #333;
+    display: block;
+    font-size: 14px;
+    font-weight: 500
+}
+
+.ks-widget-profile-default>.card-block>.ks-user>.ks-info>.ks-nickname {
+    display: block;
+    color: #333;
+    font-size: 12px
+}
+
+.ks-widget-profile-default>.card-block>.ks-user>.ks-info>.ks-location {
+    display: block;
+    font-size: 12px;
+    color: #858585
+}
+
+.ks-widget-profile-default>.card-block>.ks-sections {
+    border-top: 1px solid #dee0e1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.ks-widget-profile-default>.card-block>.ks-sections>.ks-section {
+    width: 25%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 60px;
+    border-right: 1px solid #dee0e1
+}
+
+.ks-widget-profile-default>.card-block>.ks-sections>.ks-section>.ks-icon {
+    font-size: 19px;
+    margin-bottom: 5px
+}
+
+.ks-widget-profile-default>.card-block>.ks-sections>.ks-section>.ks-amount {
+    font-size: 12px
+}
+
+.ks-widget-profile-default>.card-block>.ks-sections>.ks-section:last-child {
+    border-right: none
+}
+
+.ks-widget-profile-default>.card-block>.ks-about {
+    border-top: 1px solid #dee0e1;
+    padding: 20px
+}
+
+.ks-widget-profile-default>.card-block>.ks-about>.ks-header {
+    font-size: 12px;
+    color: #858585;
+    margin-bottom: 7px
+}
+
+.ks-widget-profile-default>.card-block>.ks-controls {
+    border-top: 1px solid #dee0e1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex
+}
+
+.ks-widget-profile-default>.card-block>.ks-controls>.ks-control {
+    height: 42px;
+    width: 50%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-right: 1px solid #dee0e1
+}
+
+.ks-widget-profile-default>.card-block>.ks-controls>.ks-control:last-child {
+    border-right: none
+}
+
+.ks-widget-profile-default>.card-block>.ks-controls>.ks-control:hover {
+    text-decoration: none
+}
+
+.ks-widget-profile-default>.card-block>.ks-controls>.ks-control>.ks-icon {
+    color: #25628f;
+    font-size: 20px;
+    margin-right: 10px;
+    line-height: 20px;
+    position: relative;
+    top: -1px
+}
+
+.ks-widget-profile-default>.card-block>.ks-controls>.ks-control>.ks-text {
+    text-decoration: none;
+    color: #25628f;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 500
+}
+
+.ks-widget-profile-image>.card-block {
+    padding: 0
+}
+
+.ks-widget-profile-image>.card-block>.ks-cover {
+    height: 120px;
+    background-color: #ccc;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -1px;
+    margin-left: -1px;
+    margin-right: -1px
+}
+
+.ks-widget-profile-image>.card-block>.ks-user {
+    margin-top: -40px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.ks-widget-profile-image>.card-block>.ks-user>.ks-avatar {
+    margin-bottom: 10px
+}
+
+.ks-widget-profile-image>.card-block>.ks-user>.ks-avatar>img {
+    width: 80px;
+    height: 80px;
+    border: solid 3px #fff
+}
+
+.ks-widget-profile-image>.card-block>.ks-user>.ks-info {
+    text-align: center;
+    height: 91px
+}
+
+.ks-widget-profile-image>.card-block>.ks-user>.ks-info>.ks-name {
+    color: #333;
+    display: block;
+    font-size: 14px;
+    font-weight: 500
+}
+
+.ks-widget-profile-image>.card-block>.ks-user>.ks-info>.ks-nickname {
+    display: block;
+    color: #333;
+    font-size: 12px
+}
+
+.ks-widget-profile-image>.card-block>.ks-user>.ks-info>.ks-location {
+    display: block;
+    font-size: 12px;
+    color: #858585
+}
+
+.ks-widget-profile-image>.card-block>.ks-sections {
+    border-top: 1px solid #dee0e1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.ks-widget-profile-image>.card-block>.ks-sections>.ks-section {
+    width: 25%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 60px;
+    border-right: 1px solid #dee0e1
+}
+
+.ks-widget-profile-image>.card-block>.ks-sections>.ks-section>.ks-icon {
+    font-size: 20px;
+    margin-bottom: 5px
+}
+
+.ks-widget-profile-image>.card-block>.ks-sections>.ks-section>.ks-amount {
+    font-size: 12px
+}
+
+.ks-widget-profile-image>.card-block>.ks-sections>.ks-section:last-child {
+    border-right: none
+}
+
+.ks-widget-profile-image>.card-block>.ks-about {
+    border-top: 1px solid #dee0e1;
+    padding: 20px
+}
+
+.ks-widget-profile-image>.card-block>.ks-about>.ks-header {
+    font-size: 12px;
+    color: #858585;
+    margin-bottom: 7px
+}
+
+.ks-widget-profile-image>.card-block>.ks-controls {
+    border-top: 1px solid #dee0e1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex
+}
+
+.ks-widget-profile-image>.card-block>.ks-controls>.ks-control {
+    height: 42px;
+    width: 50%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-right: 1px solid #dee0e1
+}
+
+.ks-widget-profile-image>.card-block>.ks-controls>.ks-control:last-child {
+    border-right: none
+}
+
+.ks-widget-profile-image>.card-block>.ks-controls>.ks-control:hover {
+    text-decoration: none
+}
+
+.ks-widget-profile-image>.card-block>.ks-controls>.ks-control>.ks-icon {
+    color: #25628f;
+    font-size: 20px;
+    margin-right: 10px;
+    line-height: 20px;
+    position: relative;
+    top: -1px
+}
+
+.ks-widget-profile-image>.card-block>.ks-controls>.ks-control>.ks-text {
+    text-decoration: none;
+    color: #25628f;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 500
+}
+
+.ks-widget-amount-statistics {
+    background: #fff
+}
+
+.ks-widget-amount-statistics>.ks-statistics {
+    -webkit-border-top-left-radius: 2px;
+    border-top-left-radius: 2px;
+    -webkit-border-top-right-radius: 2px;
+    border-top-right-radius: 2px;
+    border: solid 1px rgba(57, 81, 155, .2);
+    height: 100px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+.ks-widget-amount-statistics>.ks-statistics>.ks-amount {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 2px
+}
+
+.ks-widget-amount-statistics>.ks-statistics>.ks-text {
+    font-size: 12px
+}
+
+.ks-widget-amount-statistics>.ks-percent {
+    -webkit-border-bottom-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    -webkit-border-bottom-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    height: 40px;
+    border-bottom: solid 1px rgba(57, 81, 155, .2);
+    border-left: solid 1px rgba(57, 81, 155, .2);
+    border-right: solid 1px rgba(57, 81, 155, .2);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.ks-widget-amount-statistics>.ks-percent>.ks-text {
+    font-size: 12px
+}
+
+.ks-widget-amount-statistics>.ks-percent>.ks-text:before {
+    font-family: LineAwesome;
+    color: #333;
+    font-size: 16px;
+    display: inline-block;
+    margin-right: 7px;
+    position: relative
+}
+
+.ks-widget-amount-statistics>.ks-percent.ks-up>.ks-text:before {
+    content: "\f113";
+    top: 2px
+}
+
+.ks-widget-amount-statistics>.ks-percent.ks-down>.ks-text:before {
+    content: "\f110";
+    top: 1px
+}
+
+.ks-widget-amount-statistics.ks-primary>.ks-statistics {
+    background-color: #25628f;
+    border: none;
+    color: #fff
+}
+
+.ks-widget-amount-statistics.ks-info>.ks-statistics {
+    background-color: #42a5f5;
+    border: none;
+    color: #fff
+}
+
+.ks-widget-amount-statistics.ks-success>.ks-statistics {
+    background: #4caf50;
+    border: none;
+    color: #fff
+}
+
+.ks-widget-amount-statistics.ks-warning>.ks-statistics {
+    background: #ffb300;
+    border: none;
+    color: #fff
+}
+
+.ks-widget-amount-statistics.ks-danger>.ks-statistics {
+    background: #ef5350;
+    border: none;
+    color: #fff
+}
+
+.ks-widget-amount-statistics.ks-purple>.ks-statistics {
+    background: #cb48bb;
+    border: none;
+    color: #fff
+}
+
+.ks-widget-amount-statistics.ks-auto-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 100%
+}
+
+.ks-widget-amount-statistics.ks-auto-height>.ks-statistics {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    height: auto
+}
+
+.ks-widget-amount-chart-statistics {
+    background: #fff;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+.ks-widget-amount-chart-statistics>.ks-body {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-border-top-left-radius: 2px;
+    border-top-left-radius: 2px;
+    -webkit-border-top-right-radius: 2px;
+    border-top-right-radius: 2px;
+    border: solid 1px rgba(57, 81, 155, .2);
+    height: 100px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.ks-widget-amount-chart-statistics>.ks-body>.ks-statistics {
+    padding-left: 25px
+}
+
+.ks-widget-amount-chart-statistics>.ks-body>.ks-statistics>.ks-amount {
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+    display: block
+}
+
+.ks-widget-amount-chart-statistics>.ks-body>.ks-statistics>.ks-text {
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    display: block
+}
+
+.ks-widget-amount-chart-statistics>.ks-body>.ks-chart {
+    padding-right: 25px
+}
+
+.ks-widget-amount-chart-statistics>.ks-footer {
+    height: 40px;
+    border-bottom: solid 1px #d7dceb;
+    border-left: solid 1px #d7dceb;
+    border-right: solid 1px #d7dceb
+}
+
+.ks-widget-amount-chart-statistics.ks-white>.ks-body {
+    background: #fff;
+    color: #333;
+    border-bottom: none
+}
+
+.ks-widget-amount-chart-statistics.ks-white>.ks-body>.ks-statistics>.ks-amount {
+    color: #25628f
+}
+
+.ks-widget-amount-chart-statistics.ks-white>.ks-body>.ks-statistics>.ks-text {
+    color: #333
+}
+
+.ks-widget-amount-chart-statistics.ks-primary>.ks-body {
+    background: #25628f;
+    border: none;
+    color: #fff
+}
+
+.ks-widget-amount-chart-statistics.ks-info>.ks-body {
+    background: #42a5f5;
+    border: none;
+    color: #fff
+}
+
+.ks-widget-amount-chart-statistics.ks-success>.ks-body {
+    background: #4caf50;
+    border: none;
+    color: #fff
+}
+
+.ks-widget-amount-chart-statistics.ks-warning>.ks-body {
+    background: #ffb300;
+    border: none;
+    color: #fff
+}
+
+.ks-widget-amount-chart-statistics.ks-danger>.ks-body {
+    background: #ef5350;
+    border: none;
+    color: #fff
+}
+
+.ks-widget-amount-chart-statistics.ks-purple>.ks-body {
+    background: #cb48bb;
+    border: none;
+    color: #fff
+}
+
+.ks-widget-amount-chart-statistics.ks-auto-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 100%
+}
+
+.ks-widget-amount-chart-statistics.ks-auto-height>.ks-body {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    height: auto
+}
+
+.ks-widget-simple-solid-amount {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 45px 35px;
+    color: #fff;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-border-radius: 2px;
+    border-radius: 2px
+}
+
+.ks-widget-simple-solid-amount>.ks-amount {
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 5px
+}
+
+.ks-widget-simple-solid-amount>.ks-description {
+    text-align: center
+}
+
+.ks-widget-simple-solid-amount.ks-primary {
+    background: #25628f
+}
+
+.ks-widget-simple-solid-amount.ks-info {
+    background: #42a5f5
+}
+
+.ks-widget-simple-solid-amount.ks-success {
+    background: #4caf50
+}
+
+.ks-widget-simple-solid-amount.ks-warning {
+    background: #ffb300
+}
+
+.ks-widget-simple-solid-amount.ks-danger {
+    background: #ef5350
+}
+
+.ks-widget-overview {
+    background: #fff;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    border: solid 1px #dee0e1
+}
+
+.ks-widget-overview>.ks-body {
+    padding: 30px
+}
+
+.ks-widget-overview>.ks-body>.ks-header {
+    margin: 0;
+    line-height: 14px;
+    margin-bottom: 30px
+}
+
+.ks-widget-overview>.ks-body>.ks-items {
+    list-style: none;
+    padding: 0;
+    margin: 0
+}
+
+.ks-widget-overview>.ks-body>.ks-items>.ks-item {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 15px
+}
+
+.ks-widget-overview>.ks-body>.ks-items>.ks-item:last-child {
+    margin-bottom: 0
+}
+
+.ks-widget-overview>.ks-body>.ks-items>.ks-item>.ks-icon {
+    width: 36px;
+    height: 36px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    background-color: rgba(57, 80, 155, .05);
+    margin-right: 15px;
+    color: #25628f;
+    font-size: 19px;
+    text-align: center;
+    line-height: 36px
+}
+
+.ks-widget-overview>.ks-body>.ks-items>.ks-item>.ks-text {
+    font-size: 12px
+}
+
+.ks-widget-overview>.ks-footer {
+    padding: 18px 30px;
+    background: rgba(57, 80, 155, .05);
+    border-top: 1px solid #dee0e1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.ks-widget-overview>.ks-footer>.ks-info>.ks-name {
+    color: #25628f;
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 2px
+}
+
+.ks-widget-overview>.ks-footer>.ks-info>.ks-datetime {
+    display: block;
+    color: #858585;
+    font-size: 10px;
+    font-weight: 500;
+    text-transform: uppercase
+}
+
+.ks-widget-progress-list>.card-block {
+    padding: 0
+}
+
+.ks-widget-progress-list>.card-block>.ks-item {
+    padding: 15px 20px;
+    border-bottom: 1px solid #dee0e1
+}
+
+.ks-widget-progress-list>.card-block>.ks-item:last-child {
+    border: none
+}
+
+.ks-widget-progress-list>.card-block>.ks-item>.ks-info {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 10px
+}
+
+.ks-widget-progress-list>.card-block>.ks-item>.ks-info>.ks-wrapper>.ks-header {
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    display: block
+}
+
+.ks-widget-progress-list>.card-block>.ks-item>.ks-info>.ks-wrapper>.ks-description {
+    display: block;
+    font-size: 12px;
+    color: #858585
+}
+
+.ks-widget-progress-list>.card-block>.ks-item>.ks-info>.ks-percent {
+    font-size: 18px
+}
+
+.ks-widget-progress-list>.card-block>.ks-item>.progress {
+    margin: 0
+}
+
+.ks-widget-simple-offer>.card-block {
+    padding-bottom: 27px
+}
+
+.ks-widget-simple-offer>.card-block>.ks-item {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex
+}
+
+.ks-widget-simple-offer>.card-block>.ks-item>.ks-preview {
+    margin-right: 15px
+}
+
+.ks-widget-simple-offer>.card-block>.ks-item>.ks-preview>.ks-video-preview {
+    width: 60px;
+    min-width: 60px;
+    height: 60px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    background: #ffb300;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.ks-widget-simple-offer>.card-block>.ks-item>.ks-preview>.ks-video-preview>.ks-icon {
+    color: #ffb300;
+    font-size: 12px;
+    line-height: 12px;
+    background: #fff;
+    padding: 5px 5px 5px 7px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%
+}
+
+.ks-widget-simple-offer>.card-block>.ks-item>.ks-info>.ks-header {
+    font-size: 14px;
+    font-weight: 500
+}
+
+.ks-widget-simple-offer>.card-block>.ks-item>.ks-info>.ks-text {
+    font-size: 12px;
+    color: #858585
+}
+
+.ks-widget-events-stream>.card-block {
+    padding: 0
+}
+
+.ks-widget-events-stream>.card-block .ks-table {
+    width: 100%
+}
+
+.ks-widget-events-stream>.card-block .ks-table td {
+    padding: 20px;
+    border-bottom: 1px solid #dee0e1
+}
+
+.ks-widget-events-stream>.card-block .ks-table tr:last-child td {
+    border: none
+}
+
+.ks-widget-events-stream>.card-block .ks-table .ks-user {
+    width: 60px;
+    position: relative;
+    padding-right: 0
+}
+
+.ks-widget-events-stream>.card-block .ks-table .ks-user>.ks-avatar {
+    width: 55px;
+    height: 55px
+}
+
+.ks-widget-events-stream>.card-block .ks-table .ks-user>.ks-label {
+    position: absolute;
+    bottom: 21px;
+    right: -6px;
+    padding-left: 6px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+    background-color: #dee0e1;
+    border: solid 3px #fff;
+    color: #333;
+    font-size: 12px;
+    text-align: center
+}
+
+.ks-widget-events-stream>.card-block .ks-table .ks-info>.ks-name {
+    color: #333;
+    font-size: 14px;
+    font-weight: 400
+}
+
+.ks-widget-events-stream>.card-block .ks-table .ks-info>.ks-name>.ks-label {
+    margin-left: 10px
+}
+
+.ks-widget-events-stream>.card-block .ks-table .ks-info>.ks-description {
+    font-size: 12px;
+    color: #858585;
+    display: block;
+    margin-bottom: 5px
+}
+
+.ks-widget-events-stream>.card-block .ks-table .ks-datetime {
+    width: 80px;
+    text-align: right;
+    font-size: 10px;
+    text-transform: uppercase;
+    padding-left: 0
+}
+
+.ks-widget-leader-board>.card-block {
+    padding: 0
+}
+
+.ks-widget-leader-board>.card-block .ks-table {
+    width: 100%
+}
+
+.ks-widget-leader-board>.card-block .ks-table td {
+    padding: 20px;
+    border-bottom: 1px solid #dee0e1
+}
+
+.ks-widget-leader-board>.card-block .ks-table tr:last-child td {
+    border: none
+}
+
+.ks-widget-leader-board>.card-block .ks-table tr.ks-first-place .ks-user {
+    position: relative
+}
+
+.ks-widget-leader-board>.card-block .ks-table tr.ks-first-place .ks-user:before {
+    border-bottom: 95px solid rgba(222, 186, 12, .4)
+}
+
+.ks-widget-leader-board>.card-block .ks-table tr.ks-first-place .ks-user>.ks-label {
+    background-color: #ebd66d;
+    border: solid 3px #fff;
+    font-weight: 500;
+    width: 27px;
+    height: 27px;
+    top: 14px;
+    right: 9px;
+    line-height: 12px
+}
+
+.ks-widget-leader-board>.card-block .ks-table tr.ks-second-place .ks-user:before {
+    border-bottom: 95px solid rgba(0, 0, 0, .1)
+}
+
+.ks-widget-leader-board>.card-block .ks-table tr.ks-second-place .ks-user>.ks-label {
+    background-color: #d6d6d6;
+    border: solid 3px #fff;
+    font-weight: 500;
+    width: 27px;
+    height: 27px;
+    top: 14px;
+    right: 9px;
+    line-height: 12px
+}
+
+.ks-widget-leader-board>.card-block .ks-table tr.ks-third-place .ks-user:before {
+    border-bottom: 95px solid rgba(185, 115, 44, .4)
+}
+
+.ks-widget-leader-board>.card-block .ks-table tr.ks-third-place .ks-user>.ks-label {
+    background-color: #e3c7aa;
+    border: solid 3px #fff;
+    font-weight: 500;
+    width: 27px;
+    height: 27px;
+    top: 14px;
+    right: 9px;
+    line-height: 12px
+}
+
+.ks-widget-leader-board>.card-block .ks-table .ks-user {
+    width: 85px;
+    position: relative
+}
+
+.ks-widget-leader-board>.card-block .ks-table .ks-user:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-bottom: 95px solid #fff;
+    border-right: 95px solid transparent
+}
+
+.ks-widget-leader-board>.card-block .ks-table .ks-user>.ks-avatar {
+    width: 55px;
+    height: 55px
+}
+
+.ks-widget-leader-board>.card-block .ks-table .ks-user>.ks-label {
+    position: absolute;
+    top: 16px;
+    right: 12px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background-color: #fff;
+    border: solid 1px #dee0e1;
+    width: 24px;
+    height: 24px;
+    line-height: 13px;
+    text-align: center;
+    color: #333;
+    font-size: 12px
+}
+
+.ks-widget-leader-board>.card-block .ks-table .ks-user>.ks-label>span {
+    position: relative;
+    left: -1px
+}
+
+.ks-widget-leader-board>.card-block .ks-table .ks-info>.ks-name {
+    color: #333;
+    font-size: 14px;
+    font-weight: 400
+}
+
+.ks-widget-leader-board>.card-block .ks-table .ks-info>.ks-name>.ks-label {
+    margin-left: 10px
+}
+
+.ks-widget-leader-board>.card-block .ks-table .ks-info>.ks-description {
+    font-size: 12px;
+    color: #858585;
+    display: block;
+    margin-bottom: 5px
+}
+
+.ks-widget-leader-board>.card-block.ks-scrollable {
+    margin-right: -1px
+}
+
+.ks-widget-progress-chart-statistics .card-block {
+    padding: 0
+}
+
+.ks-widget-progress-chart-statistics table.ks-statistics {
+    width: 100%;
+    height: 196px
+}
+
+.ks-widget-progress-chart-statistics table.ks-statistics td {
+    width: 50%;
+    border-right: 1px solid #dee0e1;
+    text-align: center;
+    padding: 10px
+}
+
+.ks-widget-progress-chart-statistics table.ks-statistics td:last-child {
+    border-right: none
+}
+
+.ks-widget-progress-chart-statistics table.ks-statistics tr:first-child td:last-child {
+    border-bottom: 1px solid #dee0e1
+}
+
+.ks-widget-progress-chart-statistics table.ks-statistics .ks-chart {
+    vertical-align: middle;
+    padding: 10px
+}
+
+.ks-widget-progress-chart-statistics table.ks-statistics .ks-statistic-item {
+    text-align: center;
+    vertical-align: middle
+}
+
+.ks-widget-progress-chart-statistics table.ks-statistics .ks-statistic-item>.ks-amount {
+    display: block;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 3px
+}
+
+.ks-widget-progress-chart-statistics table.ks-statistics .ks-statistic-item>.ks-text {
+    display: block;
+    text-transform: uppercase;
+    color: #858585;
+    font-size: 11px;
+    font-weight: 500
+}
+
+.ks-widget-activity-stream {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 100%
+}
+
+.ks-widget-activity-stream>.card-block {
+    padding: 0
+}
+
+.ks-widget-activity-stream>.card-block .ks-activity-stream-items {
+    padding: 20px
+}
+
+.ks-widget-activity-stream>.card-block .ks-activity-stream-items>.ks-header {
+    margin: 0;
+    line-height: 18px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    margin-left: 55px
+}
+
+.ks-widget-activity-stream>.card-block .ks-activity-stream-items>.ks-body {
+    display: block
+}
+
+.ks-widget-activity-stream>.card-block .ks-activity-stream-items>.ks-body+.ks-header {
+    margin-top: 20px
+}
+
+.ks-widget-activity-stream>.card-block .ks-activity-stream-items>.ks-body>.ks-item {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    margin-bottom: 20px
+}
+
+.ks-widget-activity-stream>.card-block .ks-activity-stream-items>.ks-body>.ks-item:last-child {
+    margin-bottom: 0
+}
+
+.ks-widget-activity-stream>.card-block .ks-activity-stream-items>.ks-body>.ks-item>.ks-datetime {
+    font-size: 10px;
+    line-height: 10px;
+    text-transform: uppercase;
+    color: #858585;
+    width: 55px;
+    min-width: 55px;
+    position: relative;
+    top: 14px
+}
+
+.ks-widget-activity-stream>.card-block .ks-activity-stream-items>.ks-body>.ks-item>.ks-avatar {
+    margin-right: 18px;
+    width: 36px;
+    height: 36px
+}
+
+.ks-widget-activity-stream>.card-block .ks-activity-stream-items>.ks-body>.ks-item>.ks-action {
+    position: relative;
+    top: 8px
+}
+
+.ks-widget-activity-stream>.card-block .ks-activity-stream-items>.ks-body>.ks-item>.ks-action>.ks-name {
+    font-size: 12px;
+    font-weight: 500;
+    color: #333
+}
+
+.ks-widget-activity-stream>.card-block .ks-activity-stream-items>.ks-body>.ks-item>.ks-action>.ks-description {
+    font-size: 12px;
+    color: #858585
+}
+
+.ks-widget-activity-stream>.card-block .ks-activity-stream-items>.ks-body>.ks-item>.ks-action>.ks-description>a.ks-closed {
+    text-decoration: line-through
+}
+
+.ks-widget-activity-stream>.card-block .ks-activity-stream-items>.ks-body>.ks-item>.ks-action>.ks-comment {
+    margin-top: 9px;
+    font-size: 12px;
+    color: #858585;
+    opacity: .9;
+    border-left: 4px solid #dee0e1;
+    padding-left: 7px
+}
+
+.ks-widget-post {
+    border: none
+}
+
+.ks-widget-post>.card-header {
+    background-image: -webkit-linear-gradient(336deg, #25628f, #42a5f5);
+    background-image: linear-gradient(114deg, #25628f, #42a5f5)
+}
+
+.ks-widget-post>.card-header>.ks-text {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #fff
+}
+
+.ks-widget-post>.card-block {
+    border: 1px solid #dee0e1;
+    border-top: none;
+    padding: 20px
+}
+
+.ks-widget-post>.card-block>.ks-user {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex
+}
+
+.ks-widget-post>.card-block>.ks-user>.ks-avatar {
+    width: 36px;
+    height: 36px;
+    margin-right: 10px
+}
+
+.ks-widget-post>.card-block>.ks-user>.ks-info {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1
+}
+
+.ks-widget-post>.card-block>.ks-user>.ks-info>.ks-name {
+    color: #333;
+    font-size: 12px;
+    font-weight: 500;
+    display: block
+}
+
+.ks-widget-post>.card-block>.ks-user>.ks-info>.ks-description {
+    font-size: 12px;
+    color: rgba(51, 51, 51, .8);
+    font-weight: 400
+}
+
+.ks-widget-post>.card-block>.ks-user>.ks-datetime {
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 500
+}
+
+.ks-widget-post>.card-block>.ks-user+.ks-text {
+    margin-top: 20px
+}
+
+.ks-widget-post>.card-block>.ks-text+.ks-actions {
+    margin-top: 20px
+}
+
+.ks-widget-post>.card-block>.ks-actions {
+    margin-top: 20px
+}
+
+.ks-widget-post>.card-block>.ks-actions>.ks-control {
+    cursor: pointer;
+    display: inline-block
+}
+
+.ks-widget-post>.card-block>.ks-actions>.ks-control>.ks-icon {
+    color: rgba(58, 82, 155, .5);
+    font-size: 19px;
+    display: inline-block;
+    margin-right: 1px;
+    position: relative;
+    top: 2px
+}
+
+.ks-widget-post>.card-block>.ks-actions>.ks-control>.ks-amount {
+    color: #333;
+    font-size: 12px
+}
+
+.ks-widget-post>.card-block>.ks-actions>.ks-control+.ks-control {
+    margin-left: 10px
+}
+
+.ks-widget-post>.card-block>.ks-actions>.ks-control:hover>.ks-icon {
+    color: #25628f
+}
+
+.ks-widget-like-post>.card-header>.ks-user {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex
+}
+
+.ks-widget-like-post>.card-header>.ks-user>.ks-avatar {
+    width: 36px;
+    height: 36px;
+    margin-right: 10px
+}
+
+.ks-widget-like-post>.card-header>.ks-user>.ks-info {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1
+}
+
+.ks-widget-like-post>.card-header>.ks-user>.ks-info>.ks-name {
+    color: #333;
+    font-size: 12px;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 4px
+}
+
+.ks-widget-like-post>.card-header>.ks-user>.ks-info>.ks-description {
+    font-size: 12px;
+    color: rgba(51, 51, 51, .8);
+    font-weight: 400
+}
+
+.ks-widget-like-post>.card-block {
+    padding: 20px
+}
+
+.ks-widget-like-post>.card-block>.ks-text+.ks-thumbnail {
+    margin-top: 20px
+}
+
+.ks-widget-like-post>.card-block>.ks-thumbnail+.ks-actions {
+    margin-top: 20px
+}
+
+.ks-widget-like-post>.card-block>.ks-text+.ks-actions {
+    margin-top: 20px
+}
+
+.ks-widget-like-post>.card-block>.ks-actions {
+    margin-top: 20px
+}
+
+.ks-widget-like-post>.card-block>.ks-actions>.ks-control {
+    cursor: pointer;
+    display: inline-block
+}
+
+.ks-widget-like-post>.card-block>.ks-actions>.ks-control>.ks-icon {
+    color: rgba(58, 82, 155, .5);
+    font-size: 19px;
+    display: inline-block;
+    margin-right: 1px;
+    position: relative;
+    top: 2px
+}
+
+.ks-widget-like-post>.card-block>.ks-actions>.ks-control>.ks-amount {
+    color: #333;
+    font-size: 12px
+}
+
+.ks-widget-like-post>.card-block>.ks-actions>.ks-control+.ks-control {
+    margin-left: 10px
+}
+
+.ks-widget-like-post>.card-block>.ks-actions>.ks-control:hover>.ks-icon {
+    color: #25628f
+}
+
+.ks-widget-like-post>.card-block>.ks-likes-block {
+    margin-top: 17px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.ks-widget-like-post>.card-block>.ks-likes-block>.ks-users {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex
+}
+
+.ks-widget-like-post>.card-block>.ks-likes-block>.ks-users>.ks-user+.ks-user {
+    margin-left: 6px
+}
+
+.ks-widget-like-post>.card-block>.ks-likes-block>.ks-users>.ks-user+.ks-user>.ks-avatar {
+    width: 26px;
+    height: 26px
+}
+
+.ks-widget-like-post>.card-block>.ks-likes-block>.ks-text {
+    font-size: 12px;
+    margin-left: 10px
+}
+
+.ks-widget-followers>.card-block .ks-wrapper {
+    padding: 20px
+}
+
+.ks-widget-followers>.card-block .ks-wrapper>.ks-user {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex
+}
+
+.ks-widget-followers>.card-block .ks-wrapper>.ks-user+.ks-user {
+    margin-top: 15px
+}
+
+.ks-widget-followers>.card-block .ks-wrapper>.ks-user>.ks-avatar {
+    width: 36px;
+    height: 36px;
+    margin-right: 10px
+}
+
+.ks-widget-followers>.card-block .ks-wrapper>.ks-user>.ks-info {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1
+}
+
+.ks-widget-followers>.card-block .ks-wrapper>.ks-user>.ks-info>.ks-name {
+    color: #333;
+    font-size: 12px;
+    font-weight: 500;
+    display: block
+}
+
+.ks-widget-followers>.card-block .ks-wrapper>.ks-user>.ks-info>.ks-description {
+    font-size: 12px;
+    color: rgba(51, 51, 51, .8);
+    font-weight: 400
+}
+
+.ks-widget-followers>.card-block .ks-wrapper>.ks-user>.btn {
+    min-width: 105px
+}
+
+.ks-widget-to-do-list>.card-block {
+    padding: 0
+}
+
+.ks-widget-to-do-list>.card-block>.ks-header {
+    padding: 15px 20px;
+    font-size: 12px;
+    font-weight: 500;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.ks-widget-to-do-list>.card-block>.ks-body .ks-wrapper {
+    padding: 0 20px;
+    margin: 0;
+    list-style: none;
+    margin-top: 2px
+}
+
+.ks-widget-to-do-list>.card-block>.ks-body .ks-wrapper>.ks-task {
+    font-size: 12px;
+    margin-bottom: 12px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.ks-widget-to-do-list>.card-block>.ks-body .ks-wrapper>.ks-task.ks-completed .custom-control-description {
+    text-decoration: line-through;
+    color: rgba(51, 51, 51, .6)
+}
+
+.ks-widget-to-do-list>.card-block>.ks-body .ks-wrapper>.ks-task>.ks-icon {
+    color: rgba(0, 0, 0, .2);
+    margin-right: 10px;
+    font-size: 18px
+}
+
+.ks-widget-to-do-list>.card-block>.ks-body .ks-wrapper>.ks-task>.custom-control {
+    margin-bottom: 0;
+    margin-right: 15px
+}
+
+.ks-widget-to-do-list>.card-block>.ks-footer {
+    padding: 15px 20px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+}
+
+.ks-widget-to-do-list>.card-block>.ks-footer>.form-control {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1
+}
+
+.ks-widget-to-do-list>.card-block>.ks-footer>.btn {
+    margin-left: 10px
+}
+
+.ks-user-widget .card-block {
+    padding: 30px;
+    text-align: center
+}
+
+.ks-user-widget .card-block>.ks-avatar {
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    margin-bottom: 6px
+}
+
+.ks-user-widget .card-block>.ks-name {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 2px
+}
+
+.ks-user-widget .card-block>.ks-desc {
+    font-size: 12px;
+    margin-bottom: 25px
+}
+
+.ks-user-widget .card-block>.ks-desc>.ks-nickname {
+    margin-bottom: 1px
+}
+
+.ks-user-widget .card-block>.ks-desc>.ks-country {
+    color: #858585
+}
+
+.ks-user-widget .card-block>.ks-rate {
+    margin-bottom: 25px
+}
+
+.ks-user-widget .card-block>.ks-rate>.ks-name {
+    font-size: 14px;
+    margin-bottom: 1px
+}
+
+.ks-user-widget .card-block>.ks-rate>.ks-due-date {
+    color: #858585
+}
+
+.ks-user-widget .card-block>.ks-balance {
+    margin-bottom: 25px;
+    font-size: 14px
+}
+
+.ks-amount-widget>.card-header>.ks-controls .ks-control span {
+    color: #fff
+}
+
+.ks-amount-widget.panel-purple .progress-white[value]::-webkit-progress-bar {
+    background-color: #a639a5
+}
+
+.ks-amount-widget.panel-info .progress-white[value]::-webkit-progress-bar {
+    background-color: #1b85c0
+}
+
+.ks-amount-widget.panel-success .progress-white[value]::-webkit-progress-bar {
+    background-color: #23a259
+}
+
+.ks-amount-widget>.card-block {
+    padding: 10px 15px 16px 15px
+}
+
+.ks-amount-widget>.card-block>.ks-amount {
+    font-size: 32px;
+    margin-bottom: 10px
+}
+
+.ks-amount-widget>.card-block>.ks-progress {
+    margin-bottom: 10px
+}
+
+.ks-amount-widget>.card-block>.ks-desc {
+    color: #fff;
+    line-height: 1.25
+}
+
+.ks-amount-widget>.card-block>.ks-desc.ks-down:before,
+.ks-amount-widget>.card-block>.ks-desc.ks-up:before {
+    font-family: LineAwesome;
+    color: #fff;
+    font-size: 16px;
+    display: inline-block;
+    margin-right: 7px;
+    position: relative;
+    top: 1px
+}
+
+.ks-amount-widget>.card-block>.ks-desc.ks-up:before {
+    top: 2px;
+    content: "\f113"
+}
+
+.ks-amount-widget>.card-block>.ks-desc.ks-down:before {
+    content: "\f110"
+}
+
+.ks-action-widget .card-block {
+    padding: 0;
+    height: 132px
+}
+
+.ks-action-widget .card-block>.ks-action {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.ks-action-widget .card-block>.ks-action:hover {
+    text-decoration: none
+}
+
+.ks-action-widget .card-block>.ks-action>.ks-icon {
+    color: #25628f;
+    font-size: 44px;
+    margin-right: 30px
+}
+
+.ks-action-widget .card-block>.ks-action>.ks-text {
+    line-height: 1.29;
+    font-size: 14px
+}
+
+.ks-action-widget .panel-danger .card-block>.ks-action>.ks-icon,
+.ks-action-widget .panel-danger .card-block>.ks-action>.ks-text,
+.ks-action-widget.panel-info .card-block>.ks-action>.ks-icon,
+.ks-action-widget.panel-info .card-block>.ks-action>.ks-text,
+.ks-action-widget.panel-primary .card-block>.ks-action>.ks-icon,
+.ks-action-widget.panel-primary .card-block>.ks-action>.ks-text,
+.ks-action-widget.panel-success .card-block>.ks-action>.ks-icon,
+.ks-action-widget.panel-success .card-block>.ks-action>.ks-text {
+    color: #fff
+}
+
+.ks-widget-tasks-overview-progress .ks-tasks-progress-item {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
+.ks-widget-tasks-overview-progress .ks-tasks-progress-item+.ks-tasks-progress-item {
+    margin-top: 18px
+}
+
+.ks-widget-tasks-overview-progress .ks-tasks-progress-item .ks-progress {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1
+}
+
+.ks-widget-tasks-overview-progress .ks-tasks-progress-item .ks-progress .progress {
+    margin: 0
+}
+
+.ks-widget-tasks-overview-progress .ks-tasks-progress-item .ks-label {
+    margin-right: 15px;
+    font-size: 12px;
+    color: #858585
+}
+
+.ks-widget-tasks-overview-progress .ks-task-progress-bar {
+    background-color: #dae5e3
+}
+
+.ks-widget-tasks-overview-progress .ks-task-due-bar {
+    background-color: #c5d4c5
+}
+
+.ks-widget-tasks-overview-progress .ks-task-qa-bar {
+    background-color: #b6ada1
+}
+
+.ks-widget-tasks-overview-progress .ks-task-delegated-bar {
+    background-color: #979189
+}
+
+.ks-widget-tasks-overview-progress .ks-tasks-progress-item-statuses {
+    list-style: none;
+    padding: 0;
+    margin-top: 35px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-bottom: 0
+}
+
+.ks-widget-tasks-overview-progress .ks-tasks-progress-item-statuses li {
+    font-size: 12px
+}
+
+.ks-widget-tasks-overview-progress .ks-tasks-progress-item-statuses li:before {
+    content: '';
+    width: 10px;
+    height: 6px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    display: inline-block;
+    margin-right: 10px
+}
+
+.ks-widget-tasks-overview-progress .ks-tasks-progress-item-statuses li+li {
+    margin-left: 10px
+}
+
+.ks-widget-tasks-overview-progress .ks-task-progress-bar-status:before {
+    background-color: #dae5e3
+}
+
+.ks-widget-tasks-overview-progress .ks-task-progress-due-status:before {
+    background-color: #c5d4c5
+}
+
+.ks-widget-tasks-overview-progress .ks-task-progress-qa-status:before {
+    background-color: #b6ada1
+}
+
+.ks-widget-tasks-overview-progress .ks-task-progress-delegated-status:before {
+    background-color: #979189
+}
+
+.ks-widget-tasks-table .ks-table-tasks {
+    margin-top: 20px;
+    margin-bottom: 0
+}
+
+.ks-widget-tasks-table .ks-table-tasks tr:first-child td {
+    border-top: none
+}
+
+.ks-widget-tasks-table .ks-table-tasks td {
+    padding-bottom: 6px;
+    font-size: 14px
+}
+
+.ks-widget-tasks-table .ks-table-tasks td.ks-cell-checkbox,
+.ks-widget-tasks-table .ks-table-tasks td.ks-cell-radio {
+    padding-right: 0
+}
+
+.ks-widget-tasks-table .ks-table-tasks td:first-child {
+    padding-left: 0
+}
+
+.ks-widget-tasks-table .ks-table-tasks td:last-child {
+    padding-right: 0;
+    text-align: right
+}
+
+.ks-widget-tasks-table .ks-table-tasks td.ks-cell-checked {
+    text-decoration: line-through;
+    color: rgba(51, 51, 51, .4);
+    text-align: left
+}
+
+.ks-widget-tasks-statuses-progress .tasks-statuses-progress-table {
+    width: 100%;
+    margin: 0;
+    margin-top: 25px
+}
+
+.ks-widget-tasks-statuses-progress .tasks-statuses-progress-table td {
+    font-size: 12px;
+    border: none;
+    padding-top: 9px;
+    padding-bottom: 9px
+}
+
+.ks-widget-tasks-statuses-progress .tasks-statuses-progress-table td:first-child {
+    padding-left: 0
+}
+
+.ks-widget-tasks-statuses-progress .tasks-statuses-progress-table td:last-child {
+    padding-right: 0
+}
+
+.ks-widget-tasks-statuses-progress .tasks-statuses-progress-table .ks-progress-status {
+    font-weight: 700
+}
+
+.ks-widget-tasks-statuses-progress .tasks-total-statuses-progress {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #858585;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 24px
+}
+
+.ks-widget-tasks-statuses-progress .tasks-total-statuses-progress .ks-name {
+    font-weight: 500;
+    color: #333
+}
+
+.ks-widget-tasks-statuses-progress .tasks-total-statuses-progress .progress {
+    min-width: 180px;
+    margin: 0 20px
+}
+
+.ks-widget-messages-inbox .card-block {
+    padding-top: 8px
+}
+
+.ks-widget-messages-inbox .ks-widget-messages-inbox-item {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    padding-top: 12px;
+    padding-bottom: 12px
+}
+
+.ks-widget-messages-inbox .ks-widget-messages-inbox-item+.ks-widget-messages-inbox-item {
+    border-top: 1px solid #dee0e1
+}
+
+.ks-widget-messages-inbox .ks-widget-messages-inbox-item-avatar {
+    margin-right: 15px
+}
+
+.ks-widget-messages-inbox .ks-widget-messages-inbox-item-body-name-and-time {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 3px
+}
+
+.ks-widget-messages-inbox .ks-widget-messages-inbox-item-body-name-and-time>.ks-name {
+    font-size: 12px;
+    font-weight: 500;
+    color: #333
+}
+
+.ks-widget-messages-inbox .ks-widget-messages-inbox-item-body-name-and-time>.ks-time {
+    text-transform: uppercase;
+    font-size: 10px;
+    color: #858585
+}
+
+.ks-widget-messages-inbox .ks-widget-messages-inbox-item-body-message {
+    font-size: 12px;
+    color: #263238;
+    margin: 0
+}
+
+.ks-widget-table .table {
+    margin-top: 15px;
+    margin-bottom: 0
+}
+
+.ks-widget-table .table th {
+    border-top: none
+}
+
+.ks-widget-weather-and-datetime {
+    border: none;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -js-display: flex;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 20px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
+.ks-widget-weather-and-datetime.ks-sunny {
+    background: #fefcd8
+}
+
+.ks-widget-weather-and-datetime.ks-sunny .ks-icon,
+.ks-widget-weather-and-datetime.ks-sunny .ks-widget-weather-and-datetime-weather-block-amount {
+    color: #f88528
+}
+
+.ks-widget-weather-and-datetime.ks-cold {
+    background: #eff1fc
+}
+
+.ks-widget-weather-and-datetime.ks-cold .ks-icon,
+.ks-widget-weather-and-datetime.ks-cold .ks-widget-weather-and-datetime-weather-block-amount {
+    color: #4e54a8
+}
+
+.ks-widget-weather-and-datetime-weather-block-amount {
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 600;
+    margin-bottom: 10px
+}
+
+.ks-widget-weather-and-datetime-weather-block-type {
+    font-size: 14px;
+    color: #171717;
+    margin-bottom: 20px
+}
+
+.ks-widget-weather-and-datetime-datetime-block-datetime {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: right;
+    color: #171717;
+    text-transform: uppercase
+}
+
+.ks-widget-weather-and-datetime-datetime-block-location {
+    font-size: 10px;
+    font-weight: 500;
+    text-align: right;
+    color: #333;
+    text-transform: uppercase
+}
+
+.ks-widget-weather-and-datetime-datetime-block {
+    text-align: right
+}
+
+.ks-widget-weather-and-datetime-datetime-block .ks-icon {
+    margin-top: 60px;
+    display: inline-block;
+    font-size: 26px
+}
+
+.ks-widget-simple-weather-only {
+    border: none;
+    color: #fff;
+    text-align: right;
+    padding: 20px
+}
+
+.ks-widget-simple-weather-only.ks-sunny {
+    background: #f88528
+}
+
+.ks-widget-simple-weather-only.ks-cold {
+    background: #4e54a8
+}
+
+.ks-widget-simple-weather-only .ks-icon {
+    font-size: 26px
+}
+
+.ks-widget-simple-weather-only-body {
+    text-align: left;
+    margin-top: 30px
+}
+
+.ks-widget-simple-weather-only-block-amount {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 36px;
+    margin-bottom: 10px
+}
+
+.ks-widget-simple-weather-only-location {
+    font-size: 14px
+}
+
+
+
+
+
+.badge-default {
+    background-color: #eff1fc;
+    border: 1px solid #eff1fc;
+    color: #333
+}
+
+.badge-default-outline {
+    background-color: transparent;
+    border: 1px solid #c4cbe1;
+    color: #333
+}
+
+.badge-default[href]:focus,
+.badge-default[href]:hover {
+    background-color: #eff1fc
+}
+
+.badge-primary {
+    background-color: #25628f;
+    border: 1px solid #25628f;
+    color: #fff
+}
+
+.badge-primary-outline {
+    background-color: transparent;
+    border: solid 1px #25628f;
+    color: #25628f
+}
+
+.badge-primary[href]:focus,
+.badge-primary[href]:hover {
+    background-color: #25628f
+}
+
+.badge-success {
+    background-color: #4caf50;
+    border: solid 1px #4caf50;
+    color: #fff
+}
+
+.badge-success[href]:focus,
+.badge-success[href]:hover {
+    background-color: #4caf50
+}
+
+.badge-success-outline {
+    background-color: transparent;
+    border: solid 1px #4caf50;
+    color: #4caf50
+}
+
+.badge-mantis {
+    background-color: #81c159;
+    border: solid 1px #81c159;
+    color: #fff
+}
+
+.badge-mantis[href]:focus,
+.badge-mantis[href]:hover {
+    background-color: #81c159
+}
+
+.badge-mantis-outline {
+    background-color: transparent;
+    border: solid 1px #81c159;
+    color: #81c159
+}
+
+.badge-info {
+    border: solid 1px #42a5f5;
+    background-color: #42a5f5;
+    color: #fff
+}
+
+.badge-info[href]:focus,
+.badge-info[href]:hover {
+    background-color: #42a5f5
+}
+
+.badge-info-outline {
+    background-color: transparent;
+    border: solid 1px #42a5f5;
+    color: #42a5f5
+}
+
+.badge-warning {
+    background-color: #f7ca18;
+    border: solid 1px #f7ca18;
+    color: #fff
+}
+
+.badge-warning[href]:focus,
+.badge-warning[href]:hover {
+    background-color: #f7ca18
+}
+
+.badge-warning-outline {
+    background-color: transparent;
+    color: #f7ca18;
+    border: solid 1px #f7ca18
+}
+
+.badge-danger {
+    background-color: #ef5350;
+    border: solid 1px #ef5350;
+    color: #fff
+}
+
+.badge-danger[href]:focus,
+.badge-danger[href]:hover {
+    background-color: #ef5350
+}
+
+.badge-danger-outline {
+    background-color: transparent;
+    color: #ef5350;
+    border: solid 1px #ef5350
+}
+
+.badge-pink {
+    background-color: #d149d0;
+    border: solid 1px #d149d0;
+    color: #fff
+}
+
+.badge-pink[href]:focus,
+.badge-pink[href]:hover {
+    background-color: #d149d0
+}
+
+.badge-pink-outline {
+    background-color: transparent;
+    color: #d149d0;
+    border: solid 1px #d149d0
+}
+
+.badge-cranberry {
+    background-color: #df538b;
+    border: solid 1px #df538b;
+    color: #fff
+}
+
+.badge-cranberry[href]:focus,
+.badge-cranberry[href]:hover {
+    background-color: #df538b
+}
+
+.badge-cranberry-outline {
+    background-color: transparent;
+    color: #df538b;
+    border: solid 1px #df538b
+}
+
+.badge-grey {
+    background-color: #858585;
+    border: solid 1px #858585;
+    color: #fff
+}
+
+.badge-grey[href]:focus,
+.badge-grey[href]:hover {
+    background-color: #858585
+}
+
+.badge-grey-outline {
+    background-color: transparent;
+    color: #858585;
+    border: solid 1px #858585
+}
+
+.badge-fuchsia-pink {
+    background-color: #d149cc;
+    border: solid 1px #d149cc;
+    color: #fff
+}
+
+.badge-cerise-red {
+    background-color: #e23e57;
+    border: solid 1px #e23e57;
+    color: #fff
+}
+
+.badge-crusta {
+    background-color: #e79716;
+    border: solid 1px #e79716;
+    color: #fff
+}
+
+.badge-medium-purple {
+    background-color: #9043d8;
+    border: solid 1px #9043d8;
+    color: #fff
+}
+
+.badge-royal-blue {
+    background-color: #4160de;
+    border: solid 1px #4160de;
+    color: #fff
+}
+
+.badge-persian-green {
+    background-color: #02a388;
+    border: solid 1px #02a388;
+    color: #fff
+}
+
+.badge-dark-tan {
+    background-color: #630a10;
+    border: solid 1px #630a10;
+    color: #fff
+}
+
+
+
+.ks-avatar {
+    position: relative;
+    -webkit-border-radius: 50%;
+    border-radius: 50%
+}
+
+.ks-avatar>img {
+    -webkit-border-radius: 50%;
+    border-radius: 50%
+}
+
+.ks-offline:after,.ks-online:after {
+    content: '';
+    width: 11px;
+    height: 11px;
+    border: solid 2px #fff;
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%
+}
+
+.ks-online:after {
+    background-color: #4caf50
+}
+
+.ks-offline:after {
+    background-color: #ccc
+}

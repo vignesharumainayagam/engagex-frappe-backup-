@@ -1,0 +1,120 @@
+
+<div class="row">
+	   <div class="col-lg-6">
+        <div id="chartt"></div>
+    </div>
+    <span class="chart-container">
+    	 <h6 class="title">Lead by Source</h6>
+    </span>
+   
+    <div class="col-lg-3">
+        <div class="card ks-widget-payment-price-ratio ks-green">
+            <div class="ks-price-ratio-title">
+                Cold Calling
+            </div>
+            <div class="ks-price-ratio-amount">23</div>
+            <div class="ks-price-ratio-progress">
+                <span class="ks-icon ks-icon-circled-up-right"></span>
+                <div class="ks-text">0.32%</div>
+            </div>
+        </div>
+        <div class="card ks-widget-payment-price-ratio ks-blue">
+            <div class="ks-price-ratio-title">
+                Walk In
+            </div>
+            <div class="ks-price-ratio-amount">82</div>
+            <div class="ks-price-ratio-progress">
+                <span class="ks-icon ks-icon-circled-up-right"></span>
+                <div class="ks-text">0.32%</div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3" style="    padding-right: 33px;">
+        <div class="card ks-widget-payment-price-ratio ks-purple">
+            <div class="ks-price-ratio-title">
+                Advertisement
+            </div>
+            <div class="ks-price-ratio-amount">36</div>
+            <div class="ks-price-ratio-progress">
+                <span class="ks-icon ks-icon-circled-down-left"></span>
+                <div class="ks-text">1.56%</div>
+            </div>
+        </div>
+        <div class="card ks-widget-payment-price-ratio ks-yellow">
+            <div class="ks-price-ratio-title">
+                Reference
+            </div>
+            <div class="ks-price-ratio-amount">142</div>
+            <div class="ks-price-ratio-progress">
+                <span class="ks-icon ks-icon-circled-down-left"></span>
+                <div class="ks-text">1.56%</div>
+            </div>
+        </div>
+    </div>
+<!--     <div class="col-lg-12">
+    	<div id="chart-composite-1" ></div>
+    </div> -->
+    <div class="col-lg-12">
+    <div class="card ks-card-widget ks-widget-table">
+        <h5 class="card-header">
+                                        Recent Leads
+
+                                        <div class="ks-controls">
+                                            <a href="#List/Daily Task/List" class="ks-control-link">View All</a>
+                                        </div>
+                                    </h5>
+        <div class="card-block">
+            <table class="table ks-payment-table-invoicing">
+                <tbody>
+                    <tr>
+                        <th width="1">#</th>
+                        <th>Lead Name</th>
+                        <th>Contact Number </th>
+                        <th>E-mail</th>
+                        <th >Source</th>
+                        <th >Status</th>
+                    </tr>
+                {% var task=[{lead_name:"Kartheek",contact_number:7830923902,email_id:"kartheek.p32@gmail.com",source:"Cold Call",status:"Opportunity"},{lead_name:"Noor Mohamed",contact_number:9868385521,email_id:"noormohamed47@gmail.com",source:"Advertisement",status:"Lead"},{lead_name:"Mario Nixson",contact_number:8932538482,email_id:"mario.nick@gmail.com",source:"Website",status:"Closed"}] ; for (var i=0, l=task.length; i < l; i++) {  %}
+
+                    <tr>
+                        <td class="vtl">
+                        {{i+1}}
+                    </td>
+                        <td class="vtl">
+                        {{task[i].lead_name}}
+                    </td>
+                        <td class="vtl">
+                        {{task[i].contact_number}}
+                    </td>
+                        <td class="vtl">
+                        {{task[i].email_id}}
+                    </td>
+                       <td class="vtl">
+                        {{task[i].source}}
+                    </td>
+                        <td class="vtl">
+                            {% if(task[i].status == "Opportunity"){ %}
+                            <span class="badge badge-success">
+                            {{task[i].status}}
+                        </span>
+                              {% } %} 
+                        {% if(task[i].status == "Lead"){ %}
+                            <span class="badge badge-cranberry">
+                            {{task[i].status}}
+                        </span>
+                              {% } %}
+                         {% if(task[i].status == "Closed"){ %}
+                            <span class="badge badge-crusta">
+                            {{task[i].status}}
+                        </span>
+                              {% } %}
+                        </td>
+                    </tr>
+                    {% } %}
+                        
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+</div>

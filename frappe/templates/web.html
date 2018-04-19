@@ -1,0 +1,62 @@
+{% extends base_template_path %}
+{% block style %}  {% endblock %}
+
+{% block hero %}{% endblock %}
+{% block content %}
+<div class="page-container" style="max-width:100%" id="page-{{ name or route }}"
+	data-path="{{ pathname }}"
+	{%- if page_or_generator=="Generator" %}
+		data-doctype="{{ doctype }}"{% endif %}>
+		{% if show_sidebar %}
+			<div class="col-md-3">
+				{% include "templates/includes/myaccount_siderbar.html" %}
+			</div>
+		{% endif %}
+		<div class="{% if show_sidebar %}col-md-9{% else %}col-md-12{% endif %}" style="padding: 0">
+			<div class="page-content-wrapper" 
+	style="{% if show_sidebar %}background-color: #fff;padding-top: 30px;
+    margin-top: 20px;background: #f5f5f5;padding: 15px;float: left;width: 100%;{% else %}margin-top: 20px;background: transparent;padding: 15px;float: left;width: 100%;{% endif %}"
+			 style="">
+				<div class=" page-head">
+				<!-- 	<div class='col-sm-12'>
+						{% if not no_breadcrumbs and parents %}
+						<div class="page-breadcrumbs">
+							{% block breadcrumbs %}
+							{% include 'templates/includes/breadcrumbs.html' %}
+							{% endblock %}
+						</div>
+						{% endif %}
+					</div> -->
+					<div class="col-sm-8 col-xs-6" style="padding-left:  0">
+						{% block header %}{% endblock %}
+					</div>
+					<div class="col-sm-4 col-xs-6"  style="padding-right:  0">
+						{% if show_search %}
+							<div class="page-search-block">
+							{% block search %}
+								{% include
+									'templates/includes/search_box.html' %}
+							{% endblock %}
+							</div>
+						{% endif %}
+
+						{% if self.header_actions() %}
+						<div class="page-header-actions-block">
+							{% block header_actions %}{% endblock %}
+						</div>
+						{% endif %}
+					</div>
+				</div>
+				<div class="page_content" style="{% if show_sidebar %}background-color: #fff;padding-top: 30px;
+    padding-bottom: 30px;
+ 
+    padding: 15px;
+    float: left;
+    width: 100%;{% else %}background-color: transparent;{% endif %}">
+					{%- block page_content -%}{%- endblock -%}
+				</div>
+			</div>
+			<!-- sidebar ends -->
+		</div>
+</div>
+{% endblock %}

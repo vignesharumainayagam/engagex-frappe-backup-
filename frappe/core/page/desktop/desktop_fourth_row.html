@@ -1,0 +1,86 @@
+<div class="col-lg-4">
+    <div class="card ks-card-widget ks-widget-messages-inbox">
+        <h5 class="card-header">
+                                        Instructor
+
+                                        <div class="dropdown ks-control">
+                                            <a class="btn btn-link ks-no-text ks-no-arrow" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <span class="ks-icon la la-ellipsis-h"></span>
+                                            </a>
+                                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu1">
+                                                <a class="dropdown-item" href="#">Edit</a>
+                                                <a class="dropdown-item" href="#">Add Card</a>
+                                                <a class="dropdown-item" href="#">Delete</a>
+                                            </div>
+                                        </div>
+                                    </h5>
+        <div class="card-block">
+            <div class="ks-widget-messages-inbox-items">
+                {% for (var i=0, l=instructor.length; i < l; i++) {  %}
+
+                <a href="#" class="ks-widget-messages-inbox-item">
+                    <div class="ks-widget-messages-inbox-item-avatar ks-avatar ks-online">
+                        <img src="http://themesanytime.com/kosmo/demo/admin/default-primary/assets/img/avatars/avatar-6.jpg" width="36" height="36">
+                    </div>
+                    <div class="ks-widget-messages-inbox-item-body" style="    width: 100%;">
+                        <div class="ks-widget-messages-inbox-item-body-name-and-time">
+                            <span class="ks-name">{{instructor[i].instructor_name}}</span>
+                            <span class="ks-time">{{instructor[i].employee}}</span>
+                        </div>
+                        <p class="ks-widget-messages-inbox-item-body-message" style="    text-align: left;">
+                           {{instructor[i].department}}
+                        </p>
+                    </div>
+                </a>
+         
+                    {% } %}
+               
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-lg-8">
+    <div class="card ks-card-widget ks-widget-table">
+        <h5 class="card-header">
+                                        Recent Tasks
+
+                                        <div class="ks-controls">
+                                            <a href="#List/Task/List" class="ks-control-link">View All</a>
+                                        </div>
+                                    </h5>
+        <div class="card-block">
+            <table class="table ks-payment-table-invoicing">
+                <tbody>
+                    <tr>
+                        <th width="1">#</th>
+                        <th>Task Name</th>
+                        <th>Start Date</th>
+                        <th>Due Date</th>
+                        <th width="1">Status</th>
+                    </tr>
+                {% for (var i=0, l=task.length; i < l; i++) {  %}
+
+                    <tr>
+                        <td class="vtl">{{i+1}}</td>
+                        <td class="vtl">{{task[i].subject}}</td>
+                        <td class="vtl">{{task[i].expected_start_date}}</td>
+                        <td class="vtl">{{task[i].expected_end_date}}</td>
+                        <td class="vtl">
+                            {% if(task[i].status == "Open"){ %}
+                            <span class="badge badge-success">{{task[i].status}}</span>
+                              {% } %} 
+                        {% if(task[i].status == "Overdue"){ %}
+                            <span class="badge badge-cranberry">{{task[i].status}}</span>
+                              {% } %}
+                         {% if(task[i].status == "Closed"){ %}
+                            <span class="badge badge-crusta">{{task[i].status}}</span>
+                              {% } %}
+                        </td>
+                    </tr>
+                    {% } %}
+                        
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

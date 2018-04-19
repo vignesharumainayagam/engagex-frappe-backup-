@@ -1,0 +1,60 @@
+<div style="text-align: center; padding-top: calc(40px + 3%)" class="isdesk">
+	<div id="icon-grid" style="display: none">
+		{% for (var i=0, l=desktop_items.length; i < l; i++) { %}
+			{{ frappe.render_template("desktop_module_icon", desktop_items[i]) }}
+		{% } %}
+	</div>
+	<div class="row dashrow">
+		
+		{{frappe.render_template("desktop_first_row",dash_data)}}
+
+	</div>
+	<div class="row dashrow leadreportdash">
+		
+	</div>
+		<div class="row dashrow" style="    width: 100%;">
+		<div class="col-xl-12 col-md-12" style="    width: 100%;">
+	  <div id="chart" class="card"  style="    width: 100%;"></div>
+			
+		</div>
+	</div>
+	<div class="row dashrow">
+		<div class="col-xl-8 col-md-8">
+		{{frappe.render_template("desktop_third_row",dash_data)}}
+			
+		</div>
+		<div class="col-xl-4 col-md-4">
+		{{frappe.render_template("desktop_second_row",dash_data)}}
+			
+		</div>
+
+	</div>
+	
+
+	<div class="row dashrow">
+		
+		{{frappe.render_template("desktop_fourth_row",dash_data)}}
+
+	</div>
+	
+	<div class="help-message-wrapper hidden">
+		<div class="help-message-container">
+		<a class="close pull-right" style="margin-right: -7px;">
+			<i class="octicon octicon-x"></i></a>
+		<div class="help-messages">
+
+		</div>
+		<a class="left-arrow octicon octicon-chevron-left">
+		</a>
+		<a class="right-arrow octicon octicon-chevron-right">
+		</a>
+		</div>
+	</div>
+</div>
+<div style="clear: both"></div>
+
+
+
+
+
+
